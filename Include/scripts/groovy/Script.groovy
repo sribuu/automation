@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
@@ -61,8 +60,8 @@ public class Script {
 	@Given("I open default app")
 	def I_open_default_app() {
 		Mobile.startExistingApplication('id.chatalia.app', FailureHandling.STOP_ON_FAILURE)
-		//Mobile.startExistingApplication('kobiton-store:v157113', FailureHandling.STOP_ON_FAILURE)
-	Mobile.delay(30)
+		//Mobile.startExistingApplication('kobitßΩon-store:v157113', FailureHandling.STOP_ON_FAILURE)
+		Mobile.delay(5)
 
 	}
 
@@ -92,7 +91,7 @@ public class Script {
 
 	@When("I click '(.*)'")
 	def I_click(String elme) {
-		Mobile.tap(findTestObject('Object Repository/'+elme), GlobalVariable.delay_timeout)
+		Mobile.tap(findTestObject('Object Repository/'+elme), 10)
 	}
 
 	@When("I click and hold '(.*)'")
@@ -102,12 +101,12 @@ public class Script {
 
 	@When("I type '(.*)' on '(.*)'")
 	def I_type_on(String txt, String elme) {
-		Mobile.setText(findTestObject('Object Repository/'+elme), txt, GlobalVariable.delay_timeout)
+		Mobile.setText(findTestObject('Object Repository/'+elme), txt, 10)
 	}
 
 	@When("I should see '(.*)'")
 	def I_should_see(String elme) {
-		Mobile.verifyElementVisible(findTestObject('Object Repository/'+elme), GlobalVariable.delay_timeout)
+		Mobile.verifyElementVisible(findTestObject('Object Repository/'+elme), 10)
 	}
 
 	@When("I should not see '(.*)'")
@@ -119,6 +118,22 @@ public class Script {
 	def I_should_not_see_object(String elme) {
 		Mobile.verifyElementNotExist(findTestObject('Object Repository/'+elme), 5)
 	}
+
+	@When("I verify text '(.*)'")
+	def I_assert_text(String elme) {
+		Mobile.verifyElementText(findTestObject('Object Repository/'+elme), 5)
+	}
+
+	@When("I get text '(.*)'")
+	def I_get_text(String elme) {
+		Mobile.getText(findTestObject('Object Repository/'+elme), 5)
+	}
+
+	@When("I compare text '(.*)'")
+	def I_compare_text(String elme) {
+		Mobile.verifyEqual(I_get_text('Object Repository/'+elme), 5)
+	}
+
 
 	@When("I swipe to bottom")
 	def I_swipe_to_bottom() {
