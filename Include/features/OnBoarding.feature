@@ -5,7 +5,7 @@ Feature: OnBoarding
     
   Scenario: Verify OnBoarding
     ## Verify OnBoarding Page##
-    * I should see 'OnBoarding/Lewatii' 
-  * I click 'OnBoarding/Lewatii'
-      * I click 'OnBoarding/Button_Mulai'
+   * I should see 'OnBoarding/Lewatii' 
+   * I click 'OnBoarding/Lewatii'
+   * I click 'OnBoarding/Button_Mulai'
 	   
