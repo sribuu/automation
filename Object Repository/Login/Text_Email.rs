@@ -3,9 +3,9 @@
    <description></description>
    <name>Text_Email</name>
    <tag></tag>
-   <elementGuidId>3f263a4e-461b-4481-a954-cab0820f4286</elementGuidId>
+   <elementGuidId>101cf4ac-036a-4f1f-aca2-35f7173136b3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <locator>//android.view.View[@content-desc=&quot;Email Password&quot;]/android.widget.EditText[1]</locator>
-   <locatorStrategy>XPATH</locatorStrategy>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

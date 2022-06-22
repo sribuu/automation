@@ -166,5 +166,10 @@ public class Script {
 	def I_hide_keyboard() {
 		Mobile.hideKeyboard()
 	}
+	
+	@When("I close app")
+	def I_close_app() {
+		Mobile.closeApplication()
+	}
 }
 

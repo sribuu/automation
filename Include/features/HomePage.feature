@@ -1,11 +1,9 @@
-Feature: Login
+Feature: HomePage
+				 As user i want to go to Homepage and user the functional
 
   Background: Open Sribuu App
     * I open default app
-
-	
-	
-	
+    
 	 @NegativeCase 
      Scenario: Login with InValid Credentials
    * I should see 'Production/Login/SelamatDatang_Text' 
@@ -37,7 +35,7 @@ Feature: Login
    * I hide keyboard
    * I click 'Production/Login/Login_Button'
    * I wait for 10 seconds
-   * I kill app
+   * I should see 'Production/HomePage/Text_FieldNama' 
    
     
  
