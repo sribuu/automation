@@ -36,7 +36,7 @@ Feature: Login
    * I type '123456' on 'Production/Login/Password_Field'
    * I hide keyboard
    * I click 'Production/Login/Login_Button'
-   * I wait for 10 seconds
+   * I wait for 5 seconds
    * I kill app
    
     

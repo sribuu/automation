@@ -138,7 +138,12 @@ public class Script {
 	@When("I swipe to bottom")
 	def I_swipe_to_bottom() {
 		Mobile.swipe(500, 1600, 500, 0)
-		Mobile.swipe(500, 1600, 500, 0)
+		Mobile.delay(3)
+	}
+
+	@When("I scroll to up")
+	def I_scroll_to_up() {
+		Mobile.swipe(63, 147, 231, 252)
 		Mobile.delay(3)
 	}
 
@@ -166,7 +171,12 @@ public class Script {
 	def I_hide_keyboard() {
 		Mobile.hideKeyboard()
 	}
-	
+
+	@When("I tap app")
+	def I_tap_app() {
+		Mobile.tapAtPosition(200, 300)
+	}
+
 	@When("I close app")
 	def I_close_app() {
 		Mobile.closeApplication()
