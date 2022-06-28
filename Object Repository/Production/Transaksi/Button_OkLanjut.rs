@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Button_Pilih Kategori</name>
+   <name>Button_OkLanjut</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -11,21 +11,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.view.View</value>
+      <value>android.widget.Button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>3</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Pilih Kategori</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +26,13 @@
       <name>package</name>
       <type>Main</type>
       <value>id.chatalia.app</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>content-desc</name>
+      <type>Main</type>
+      <value>Ok, lanjut!</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>false</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>735</value>
+      <value>1595</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -130,14 +130,14 @@
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>126</value>
+      <value>136</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[63,735][1017,861]</value>
+      <value>[63,1595][1017,1731]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -154,12 +154,19 @@
       <value></value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value></value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[4]</value>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]</value>
    </webElementProperties>
-   <locator>//*[@class = 'android.view.View' and (@text = 'Pilih Kategori' or . = 'Pilih Kategori') and @resource-id = '']</locator>
+   <locator>//*[@class = 'android.widget.Button' and @resource-id = '' and (@text = '' or . = '')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

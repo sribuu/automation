@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Text_FieldNama</name>
+   <name>Text_CieBerhasilTransaksiPertama</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,8 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>Malam, Check
-Hari yang cerah!</value>
+      <value>Cie, berhasil bikin transaksi pertama~</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@ Hari yang cerah!</value>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -110,35 +109,35 @@ Hari yang cerah!</value>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>63</value>
+      <value>64</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>176</value>
+      <value>903</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>602</value>
+      <value>952</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>92</value>
+      <value>126</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[63,176][665,268]</value>
+      <value>[64,903][1016,1029]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -166,9 +165,8 @@ Hari yang cerah!</value>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]</value>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]</value>
    </webElementProperties>
-   <locator>Malam, Check
-Hari yang cerah!</locator>
+   <locator>Cie, berhasil bikin transaksi pertama~</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

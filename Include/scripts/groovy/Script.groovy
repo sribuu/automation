@@ -140,10 +140,16 @@ public class Script {
 		Mobile.swipe(500, 1600, 500, 0)
 		Mobile.delay(3)
 	}
+	
+	@When("I swipe to bottom transaction")
+	def I_swipe_to_bottom_transaction() {
+		Mobile.swipe(63, 735, 63, 548)
+		Mobile.delay(3)
+	}
 
 	@When("I scroll to up")
 	def I_scroll_to_up() {
-		Mobile.swipe(63, 147, 231, 252)
+		Mobile.swipe(691, 180, 1017, 800)
 		Mobile.delay(3)
 	}
 
@@ -175,6 +181,26 @@ public class Script {
 	@When("I tap app")
 	def I_tap_app() {
 		Mobile.tapAtPosition(200, 300)
+	}
+
+	@When("I tap tutorial at transaction ")
+	def I_tap_app_transaction() {
+		Mobile.tapAtPosition(200, 300)
+		Mobile.delay(1)
+		Mobile.tapAtPosition(200, 300)
+		Mobile.delay(1)
+		Mobile.tapAtPosition(200, 300)
+		Mobile.delay(1)
+		Mobile.tapAtPosition(200, 300)
+		Mobile.delay(1)
+		Mobile.tapAtPosition(200, 300)
+		Mobile.delay(1)
+		Mobile.tapAtPosition(200, 300)
+		Mobile.delay(1)
+		Mobile.tapAtPosition(200, 300)
+		Mobile.delay(1)
+		Mobile.tapAtPosition(200, 300)
+		
 	}
 
 	@When("I close app")

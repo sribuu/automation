@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Text_FieldNama</name>
+   <name>Kategori_Edukasi</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,8 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>Malam, Check
-Hari yang cerah!</value>
+      <value>Edukasi</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -110,35 +109,35 @@ Hari yang cerah!</value>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>63</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>176</value>
+      <value>210</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>602</value>
+      <value>1080</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>92</value>
+      <value>189</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[63,176][665,268]</value>
+      <value>[0,210][1080,399]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -166,9 +165,8 @@ Hari yang cerah!</value>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]</value>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]</value>
    </webElementProperties>
-   <locator>Malam, Check
-Hari yang cerah!</locator>
+   <locator>Edukasi</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>
