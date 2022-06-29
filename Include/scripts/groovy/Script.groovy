@@ -96,7 +96,8 @@ public class Script {
 
 	@When("I click and hold '(.*)'")
 	def I_click_and_hold(String elme) {
-		Mobile.tapAndHold(findTestObject('Object Repository/'+elme), 3, GlobalVariable.delay_timeout)
+		Mobile.tapAndHold(findTestObject('Object Repository/'+elme), 3 , 2)
+	
 	}
 
 	@When("I type '(.*)' on '(.*)'")
@@ -143,9 +144,15 @@ public class Script {
 	
 	@When("I swipe to bottom transaction")
 	def I_swipe_to_bottom_transaction() {
-		Mobile.swipe(63, 735, 63, 548)
+		Mobile.swipe(63, 1152, 63, 1154)
 		Mobile.delay(3)
 	}
+	@When("I swipe to bottom trx")
+	def I_swipe_to_bottom_trx() {
+		Mobile.swipe(63, 1154, 63, 675)
+		Mobile.delay(3)
+	}
+	
 
 	@When("I scroll to up")
 	def I_scroll_to_up() {
