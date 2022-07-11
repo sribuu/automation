@@ -97,7 +97,6 @@ public class Script {
 	@When("I click and hold '(.*)'")
 	def I_click_and_hold(String elme) {
 		Mobile.tapAndHold(findTestObject('Object Repository/'+elme), 3 , 2)
-	
 	}
 
 	@When("I type '(.*)' on '(.*)'")
@@ -141,7 +140,7 @@ public class Script {
 		Mobile.swipe(500, 1600, 500, 0)
 		Mobile.delay(3)
 	}
-	
+
 	@When("I swipe to bottom transaction")
 	def I_swipe_to_bottom_transaction() {
 		Mobile.swipe(63, 1152, 63, 1154)
@@ -152,7 +151,10 @@ public class Script {
 		Mobile.swipe(63, 1154, 63, 675)
 		Mobile.delay(3)
 	}
-	
+	@When("I swipe slider '(.*)'")
+	def I_swipe_slider(String elme) {
+		Mobile.setSliderValue(findTestObject('Object Repository/'+elme), 1, 2)
+	}
 
 	@When("I scroll to up")
 	def I_scroll_to_up() {
@@ -207,12 +209,11 @@ public class Script {
 		Mobile.tapAtPosition(200, 300)
 		Mobile.delay(1)
 		Mobile.tapAtPosition(200, 300)
-		
 	}
 
 	@When("I close app")
 	def I_close_app() {
-		Mobile.closeApplication()
+		Mobile.closeApplication('id.chatalia.app', FailureHandling.STOP_ON_FAILURE)
 	}
 }
 

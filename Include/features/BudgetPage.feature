@@ -1,5 +1,5 @@
 Feature: HomePage
-				 As user i want to make a budgets
+				 As user i want to make a budgetstes
 
   Background: Open Sribuu App
     * I open default app
@@ -17,8 +17,11 @@ Feature: HomePage
    * I click 'Production/Anggaran/Button_TambahAnggaran'
    * I click 'Production/Anggaran/Button_BerapaAnggaran'
    * I click 'Production/Anggaran/Button_PilihKategori'
-   * I click 'Production/Anggaran/Button_PilihBulanMulai'
+   * I click 'Production/Anggaran/Kategori_Belanja'
    
+   
+   * I click 'Production/Anggaran/Button_PilihBulanMulai'
+   * I click 'Production/Anggaran/Button_Simpan'
    * I click 'Production/Anggaran/Button_SampaiBulan'
 	 
    
