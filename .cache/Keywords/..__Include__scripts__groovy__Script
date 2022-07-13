@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "AEDAB8603F44C3D4C2DD419CACBCB7B6",
+  "keywordFileContentHash": "233671F16ABBDDF438E212514ABB0E1A",
   "keywordClasses": [
     {
       "name": "Script",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

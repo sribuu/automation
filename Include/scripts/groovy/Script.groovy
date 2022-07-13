@@ -192,7 +192,7 @@ public class Script {
 		Mobile.tapAtPosition(200, 300)
 	}
 
-	@When("I tap tutorial at transaction ")
+	@When("I tap tutorial at transaction")
 	def I_tap_app_transaction() {
 		Mobile.tapAtPosition(200, 300)
 		Mobile.delay(1)
