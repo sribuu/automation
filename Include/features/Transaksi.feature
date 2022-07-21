@@ -216,13 +216,27 @@ Feature: HomePage
 	 
 	 	 
 	   @PositiveCase 
-     Scenario: As user i want to searching transaction
+     Scenario: As user i want to searching transaction with valid transaction
+    * I scroll to up
    * I should see 'Production/Transaksi/View_CariTransaksi'
    * I wait for 4 seconds
    * I click and hold 'Production/Transaksi/View_CariTransaksi'
    * I wait for 4 seconds
 	 * I type 'Automation out FE' on 'Production/Transaksi/View_CariTransaksi'
 	 * I wait for 4 seconds
+	 * I hide keyboard
+	 * I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+	 
+	 	   @NegativeCase 
+     Scenario: As user i want to searching transaction with invalid transaction
+   * I scroll to up
+   * I should see 'Production/Transaksi/View_CariTransaksi'
+   * I wait for 4 seconds
+   * I click and hold 'Production/Transaksi/View_CariTransaksi'
+   * I wait for 4 seconds
+	 * I type 'Tidak Ada' on 'Production/Transaksi/View_CariTransaksi'
+	 * I wait for 4 seconds
+	 * I hide keyboard
 	 * I should see 'Production/Transaksi/Transaksi_AutomationOUT'
 	 
 	 
@@ -255,3 +269,10 @@ Feature: HomePage
 	 * I should see 'Production/Transaksi/View_EditBelanja'
 	 * I click 'Production/Transaksi/View_EditBelanja'
 	 * I click 'Production/Transaksi/Button_Simpan'
+	 
+	   @PositiveCase 
+     Scenario: As user i want to see verify transaction berulang
+     
+       @PositiveCase 
+     Scenario: As user i want check the pengeluaran dan pendapatan value
+	 
