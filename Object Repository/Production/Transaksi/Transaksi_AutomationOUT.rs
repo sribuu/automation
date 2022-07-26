@@ -3,7 +3,7 @@
    <description></description>
    <name>Transaksi_AutomationOUT</name>
    <tag></tag>
-   <elementGuidId>d025a7e5-e62d-440d-af2a-b7c75cb97c1a</elementGuidId>
+   <elementGuidId>456b0bf7-9633-4fb9-a8e8-6725b8bec2b2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -171,6 +171,6 @@
    </webElementProperties>
    <locator>Automation out FE
 - Rp 1.000.000
-21 Jul 22</locator>
+26 Jul 22</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

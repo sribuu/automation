@@ -1,0 +1,2366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="691.15" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="1" errors="0" time="691.15" skipped="0" timestamp="2022-07-26 09:33:59" hostname="MSI - DESKTOP-P3BAH7Q" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86_64 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MSI\\git\\automation-fe\\Reports\\20220726_093355\\New Test Suite\\20220726_093356"/>
+         <property name="logFiles" value="C:\\Users\\MSI\\git\\automation-fe\\Reports\\20220726_093355\\New Test Suite\\20220726_093356\\appium.log, C:\\Users\\MSI\\git\\automation-fe\\Reports\\20220726_093355\\New Test Suite\\20220726_093356\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\MSI\\git\\automation-fe\\Reports\\20220726_093355\\New Test Suite\\20220726_093356\\1658803259907.png, C:\\Users\\MSI\\git\\automation-fe\\Reports\\20220726_093355\\New Test Suite\\20220726_093356\\1658803260174.png"/>
+         <property name="hostName" value="MSI - DESKTOP-P3BAH7Q"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.2"/>
+         <property name="deviceModel" value="Android SDK built for x86_64"/>
+         <property name="hostAddress" value="192.168.18.21"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86_64 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Regression" time="690.966" classname="Test Cases/Regression" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Regression FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Transaksi.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Regression.run(Regression:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658802836054.run(TempTestSuite1658802836054.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-26 09:33:59 - [TEST_CASE][FAILED] - Test Cases/Regression: Test Cases/Regression FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Transaksi.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Regression.run(Regression:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658802836054.run(TempTestSuite1658802836054.groovy:36)
+
+
+2022-07-26 09:33:59 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Login.feature"): Feature file: 'Include/features/Login.feature' was passed
+
+2022-07-26 09:33:59 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'C:\Users\MSI\git\automation-fe\Reports\20220726_093355\New Test Suite\20220726_093356/cucumber_report/1658802839968'...
+
+2022-07-26 09:34:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login with InValid Credentials: SCENARIO Login with InValid Credentials
+
+2022-07-26 09:34:00 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:34:00 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:34:01 - [MESSAGE][INFO] - Appium server started on port 53,788
+
+2022-07-26 09:34:09 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:34:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:34:14 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:34:14 - [TEST_STEP][PASSED] - I should see 'Production/Login/SelamatDatang_Text': I should see 'Production/Login/SelamatDatang_Text'
+
+2022-07-26 09:34:14 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Login/SelamatDatang_Text' is visible
+
+2022-07-26 09:34:14 - [MESSAGE][PASSED] - I should see 'Production/Login/SelamatDatang_Text'
+
+2022-07-26 09:34:14 - [TEST_STEP][PASSED] - I click 'Production/Login/Lewati_Button': I click 'Production/Login/Lewati_Button'
+
+2022-07-26 09:34:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Lewati_Button'
+
+2022-07-26 09:34:16 - [MESSAGE][PASSED] - I click 'Production/Login/Lewati_Button'
+
+2022-07-26 09:34:16 - [TEST_STEP][PASSED] - I click 'Production/Login/Mulai_Button': I click 'Production/Login/Mulai_Button'
+
+2022-07-26 09:34:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Mulai_Button'
+
+2022-07-26 09:34:17 - [MESSAGE][PASSED] - I click 'Production/Login/Mulai_Button'
+
+2022-07-26 09:34:17 - [TEST_STEP][PASSED] - I click 'Production/Login/Email_Field': I click 'Production/Login/Email_Field'
+
+2022-07-26 09:34:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Email_Field'
+
+2022-07-26 09:34:18 - [MESSAGE][PASSED] - I click 'Production/Login/Email_Field'
+
+2022-07-26 09:34:18 - [TEST_STEP][PASSED] - I type 'test312@gmail.com' on 'Production/Login/Email_Field': I type 'test312@gmail.com' on 'Production/Login/Email_Field'
+
+2022-07-26 09:34:18 - [MESSAGE][PASSED] - Text 'test312@gmail.com' has been set to element 'Object Repository/Production/Login/Email_Field'
+
+2022-07-26 09:34:18 - [MESSAGE][PASSED] - I type 'test312@gmail.com' on 'Production/Login/Email_Field'
+
+2022-07-26 09:34:18 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:34:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:34:19 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:34:19 - [TEST_STEP][PASSED] - I click 'Production/Login/Password_Field': I click 'Production/Login/Password_Field'
+
+2022-07-26 09:34:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Password_Field'
+
+2022-07-26 09:34:20 - [MESSAGE][PASSED] - I click 'Production/Login/Password_Field'
+
+2022-07-26 09:34:20 - [TEST_STEP][PASSED] - I type '123456' on 'Production/Login/Password_Field': I type '123456' on 'Production/Login/Password_Field'
+
+2022-07-26 09:34:20 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Production/Login/Password_Field'
+
+2022-07-26 09:34:20 - [MESSAGE][PASSED] - I type '123456' on 'Production/Login/Password_Field'
+
+2022-07-26 09:34:20 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:34:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:34:22 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:34:22 - [TEST_STEP][PASSED] - I click 'Production/Login/Login_Button': I click 'Production/Login/Login_Button'
+
+2022-07-26 09:34:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Login_Button'
+
+2022-07-26 09:34:23 - [MESSAGE][PASSED] - I click 'Production/Login/Login_Button'
+
+2022-07-26 09:34:23 - [TEST_STEP][PASSED] - I wait for 5 seconds: I wait for 5 seconds
+
+2022-07-26 09:34:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:34:28 - [MESSAGE][PASSED] - I wait for 5 seconds
+
+2022-07-26 09:34:28 - [TEST_STEP][PASSED] - I should see 'Production/Login/LoginGagal': I should see 'Production/Login/LoginGagal'
+
+2022-07-26 09:34:28 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Login/LoginGagal' is visible
+
+2022-07-26 09:34:28 - [MESSAGE][PASSED] - I should see 'Production/Login/LoginGagal'
+
+2022-07-26 09:34:28 - [TEST_STEP][PASSED] - I wait for 5 seconds: I wait for 5 seconds
+
+2022-07-26 09:34:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:34:33 - [MESSAGE][PASSED] - I wait for 5 seconds
+
+2022-07-26 09:34:33 - [TEST_STEP][PASSED] - I kill app: I kill app
+
+2022-07-26 09:34:34 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:34:34 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:34:35 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:34:35 - [MESSAGE][PASSED] - I kill app
+
+2022-07-26 09:34:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login with Valid Credentials: SCENARIO Login with Valid Credentials
+
+2022-07-26 09:34:35 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:34:35 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:34:41 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:34:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:34:46 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:34:46 - [TEST_STEP][PASSED] - I should see 'Production/Login/SelamatDatang_Text': I should see 'Production/Login/SelamatDatang_Text'
+
+2022-07-26 09:34:46 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Login/SelamatDatang_Text' is visible
+
+2022-07-26 09:34:46 - [MESSAGE][PASSED] - I should see 'Production/Login/SelamatDatang_Text'
+
+2022-07-26 09:34:46 - [TEST_STEP][PASSED] - I click 'Production/Login/Lewati_Button': I click 'Production/Login/Lewati_Button'
+
+2022-07-26 09:34:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Lewati_Button'
+
+2022-07-26 09:34:48 - [MESSAGE][PASSED] - I click 'Production/Login/Lewati_Button'
+
+2022-07-26 09:34:48 - [TEST_STEP][PASSED] - I click 'Production/Login/Mulai_Button': I click 'Production/Login/Mulai_Button'
+
+2022-07-26 09:34:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Mulai_Button'
+
+2022-07-26 09:34:49 - [MESSAGE][PASSED] - I click 'Production/Login/Mulai_Button'
+
+2022-07-26 09:34:49 - [TEST_STEP][PASSED] - I click 'Production/Login/Email_Field': I click 'Production/Login/Email_Field'
+
+2022-07-26 09:34:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Email_Field'
+
+2022-07-26 09:34:50 - [MESSAGE][PASSED] - I click 'Production/Login/Email_Field'
+
+2022-07-26 09:34:50 - [TEST_STEP][PASSED] - I type 'test31@gmail.com' on 'Production/Login/Email_Field': I type 'test31@gmail.com' on 'Production/Login/Email_Field'
+
+2022-07-26 09:34:50 - [MESSAGE][PASSED] - Text 'test31@gmail.com' has been set to element 'Object Repository/Production/Login/Email_Field'
+
+2022-07-26 09:34:50 - [MESSAGE][PASSED] - I type 'test31@gmail.com' on 'Production/Login/Email_Field'
+
+2022-07-26 09:34:50 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:34:51 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:34:51 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:34:51 - [TEST_STEP][PASSED] - I click 'Production/Login/Password_Field': I click 'Production/Login/Password_Field'
+
+2022-07-26 09:34:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Password_Field'
+
+2022-07-26 09:34:52 - [MESSAGE][PASSED] - I click 'Production/Login/Password_Field'
+
+2022-07-26 09:34:52 - [TEST_STEP][PASSED] - I type '123456' on 'Production/Login/Password_Field': I type '123456' on 'Production/Login/Password_Field'
+
+2022-07-26 09:34:52 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Production/Login/Password_Field'
+
+2022-07-26 09:34:52 - [MESSAGE][PASSED] - I type '123456' on 'Production/Login/Password_Field'
+
+2022-07-26 09:34:52 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:34:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:34:54 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:34:54 - [TEST_STEP][PASSED] - I click 'Production/Login/Login_Button': I click 'Production/Login/Login_Button'
+
+2022-07-26 09:34:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Login/Login_Button'
+
+2022-07-26 09:34:55 - [MESSAGE][PASSED] - I click 'Production/Login/Login_Button'
+
+2022-07-26 09:34:55 - [TEST_STEP][PASSED] - I wait for 5 seconds: I wait for 5 seconds
+
+2022-07-26 09:35:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:35:00 - [MESSAGE][PASSED] - I wait for 5 seconds
+
+2022-07-26 09:35:00 - [TEST_STEP][PASSED] - I kill app: I kill app
+
+2022-07-26 09:35:00 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:35:01 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:35:03 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:35:03 - [MESSAGE][PASSED] - I kill app
+
+2022-07-26 09:35:03 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed
+
+2022-07-26 09:35:03 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/HomePage.feature"): Feature file: 'Include/features/HomePage.feature' was passed
+
+2022-07-26 09:35:03 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/HomePage.feature' and extract report to folder: 'C:\Users\MSI\git\automation-fe\Reports\20220726_093355\New Test Suite\20220726_093356/cucumber_report/1658802903672'...
+
+2022-07-26 09:35:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Verify all the features on HomePage: SCENARIO Verify all the features on HomePage
+
+2022-07-26 09:35:03 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:35:03 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:35:09 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:35:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:35:14 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:35:14 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/Button_Beranda': I should see 'Production/HomePage/Button_Beranda'
+
+2022-07-26 09:35:14 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/Button_Beranda' is visible
+
+2022-07-26 09:35:14 - [MESSAGE][PASSED] - I should see 'Production/HomePage/Button_Beranda'
+
+2022-07-26 09:35:14 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_ButtonChat': I should see 'Production/HomePage/View_ButtonChat'
+
+2022-07-26 09:35:15 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_ButtonChat' is visible
+
+2022-07-26 09:35:15 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_ButtonChat'
+
+2022-07-26 09:35:15 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/Button_ClipChart': I should see 'Production/HomePage/Button_ClipChart'
+
+2022-07-26 09:35:15 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/Button_ClipChart' is visible
+
+2022-07-26 09:35:15 - [MESSAGE][PASSED] - I should see 'Production/HomePage/Button_ClipChart'
+
+2022-07-26 09:35:15 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_Emas': I should see 'Production/HomePage/View_Emas'
+
+2022-07-26 09:35:15 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_Emas' is visible
+
+2022-07-26 09:35:15 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_Emas'
+
+2022-07-26 09:35:15 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_Nama': I should see 'Production/HomePage/View_Nama'
+
+2022-07-26 09:35:16 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_Nama' is visible
+
+2022-07-26 09:35:16 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_Nama'
+
+2022-07-26 09:35:16 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_Referral': I should see 'Production/HomePage/View_Referral'
+
+2022-07-26 09:35:16 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_Referral' is visible
+
+2022-07-26 09:35:16 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_Referral'
+
+2022-07-26 09:35:16 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_TotalSaldo': I should see 'Production/HomePage/View_TotalSaldo'
+
+2022-07-26 09:35:16 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_TotalSaldo' is visible
+
+2022-07-26 09:35:16 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_TotalSaldo'
+
+2022-07-26 09:35:16 - [TEST_STEP][PASSED] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:35:17 - [MESSAGE][PASSED] - Swiped from 63,1,154 to 63,675
+
+2022-07-26 09:35:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:35:20 - [MESSAGE][PASSED] - I swipe to bottom trx
+
+2022-07-26 09:35:20 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/Button_KelolaAnggaran': I should see 'Production/HomePage/Button_KelolaAnggaran'
+
+2022-07-26 09:35:20 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/Button_KelolaAnggaran' is visible
+
+2022-07-26 09:35:20 - [MESSAGE][PASSED] - I should see 'Production/HomePage/Button_KelolaAnggaran'
+
+2022-07-26 09:35:20 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/Text_SisaAngaaran': I should see 'Production/HomePage/Text_SisaAngaaran'
+
+2022-07-26 09:35:20 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/Text_SisaAngaaran' is visible
+
+2022-07-26 09:35:20 - [MESSAGE][PASSED] - I should see 'Production/HomePage/Text_SisaAngaaran'
+
+2022-07-26 09:35:20 - [TEST_STEP][PASSED] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:35:21 - [MESSAGE][PASSED] - Swiped from 63,1,154 to 63,675
+
+2022-07-26 09:35:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:35:24 - [MESSAGE][PASSED] - I swipe to bottom trx
+
+2022-07-26 09:35:24 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_Basic': I should see 'Production/HomePage/View_Basic'
+
+2022-07-26 09:35:24 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_Basic' is visible
+
+2022-07-26 09:35:24 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_Basic'
+
+2022-07-26 09:35:24 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_HitungTujuan': I should see 'Production/HomePage/View_HitungTujuan'
+
+2022-07-26 09:35:24 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_HitungTujuan' is visible
+
+2022-07-26 09:35:24 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_HitungTujuan'
+
+2022-07-26 09:35:24 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_TantanganMenabung': I should see 'Production/HomePage/View_TantanganMenabung'
+
+2022-07-26 09:35:24 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_TantanganMenabung' is visible
+
+2022-07-26 09:35:24 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_TantanganMenabung'
+
+2022-07-26 09:35:24 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_TK_Emas': I should see 'Production/HomePage/View_TK_Emas'
+
+2022-07-26 09:35:25 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_TK_Emas' is visible
+
+2022-07-26 09:35:25 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_TK_Emas'
+
+2022-07-26 09:35:25 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/View_UndangTemanMu': I should see 'Production/HomePage/View_UndangTemanMu'
+
+2022-07-26 09:35:25 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/View_UndangTemanMu' is visible
+
+2022-07-26 09:35:25 - [MESSAGE][PASSED] - I should see 'Production/HomePage/View_UndangTemanMu'
+
+2022-07-26 09:35:25 - [TEST_STEP][PASSED] - I scroll to up: I scroll to up
+
+2022-07-26 09:35:26 - [MESSAGE][PASSED] - Swiped from 691,180 to 1,017,800
+
+2022-07-26 09:35:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:35:29 - [MESSAGE][PASSED] - I scroll to up
+
+2022-07-26 09:35:29 - [TEST_STEP][PASSED] - I scroll to up: I scroll to up
+
+2022-07-26 09:35:30 - [MESSAGE][PASSED] - Swiped from 691,180 to 1,017,800
+
+2022-07-26 09:35:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:35:33 - [MESSAGE][PASSED] - I scroll to up
+
+2022-07-26 09:35:33 - [MESSAGE][PASSED] - Feature file: 'Include/features/HomePage.feature' was passed
+
+2022-07-26 09:35:33 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/LaporanWith0Trx.feature"): Feature file: 'Include/features/LaporanWith0Trx.feature' was passed
+
+2022-07-26 09:35:33 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/LaporanWith0Trx.feature' and extract report to folder: 'C:\Users\MSI\git\automation-fe\Reports\20220726_093355\New Test Suite\20220726_093356/cucumber_report/1658802933150'...
+
+2022-07-26 09:35:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Laporan Keuangan with 0 Trx: SCENARIO Laporan Keuangan with 0 Trx
+
+2022-07-26 09:35:33 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:35:33 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:35:39 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:35:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:35:44 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:35:44 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/Button_Laporan': I should see 'Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:44 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/Button_Laporan' is visible
+
+2022-07-26 09:35:44 - [MESSAGE][PASSED] - I should see 'Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:44 - [TEST_STEP][PASSED] - I click 'Production/Laporan/Button_Laporan': I click 'Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:44 - [MESSAGE][PASSED] - I click 'Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:44 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/View_ReportKeuanganMu': I should see 'Production/Laporan/View_ReportKeuanganMu'
+
+2022-07-26 09:35:45 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/View_ReportKeuanganMu' is visible
+
+2022-07-26 09:35:45 - [MESSAGE][PASSED] - I should see 'Production/Laporan/View_ReportKeuanganMu'
+
+2022-07-26 09:35:45 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/View_DefaultZeroTrx': I should see 'Production/Laporan/View_DefaultZeroTrx'
+
+2022-07-26 09:35:45 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/View_DefaultZeroTrx' is visible
+
+2022-07-26 09:35:45 - [MESSAGE][PASSED] - I should see 'Production/Laporan/View_DefaultZeroTrx'
+
+2022-07-26 09:35:45 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/View_DefaultZeroTrx1': I should see 'Production/Laporan/View_DefaultZeroTrx1'
+
+2022-07-26 09:35:45 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/View_DefaultZeroTrx1' is visible
+
+2022-07-26 09:35:45 - [MESSAGE][PASSED] - I should see 'Production/Laporan/View_DefaultZeroTrx1'
+
+2022-07-26 09:35:45 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Laporan Keuangan with Import 0 Transaksi: SCENARIO Laporan Keuangan with Import 0 Transaksi
+
+2022-07-26 09:35:45 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:35:45 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:35:51 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:35:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:35:56 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:35:56 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/Button_Laporan': I should see 'Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:56 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/Button_Laporan' is visible
+
+2022-07-26 09:35:56 - [MESSAGE][PASSED] - I should see 'Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:56 - [TEST_STEP][PASSED] - I click 'Production/Laporan/Button_Laporan': I click 'Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:57 - [MESSAGE][PASSED] - I click 'Production/Laporan/Button_Laporan'
+
+2022-07-26 09:35:57 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/Button_Export': I should see 'Production/Laporan/Button_Export'
+
+2022-07-26 09:35:57 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/Button_Export' is visible
+
+2022-07-26 09:35:57 - [MESSAGE][PASSED] - I should see 'Production/Laporan/Button_Export'
+
+2022-07-26 09:35:57 - [TEST_STEP][PASSED] - I click 'Production/Laporan/Button_Export': I click 'Production/Laporan/Button_Export'
+
+2022-07-26 09:35:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Laporan/Button_Export'
+
+2022-07-26 09:35:57 - [MESSAGE][PASSED] - I click 'Production/Laporan/Button_Export'
+
+2022-07-26 09:35:57 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/Button_PilihSumberKeuangan': I should see 'Production/Laporan/Button_PilihSumberKeuangan'
+
+2022-07-26 09:35:58 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/Button_PilihSumberKeuangan' is visible
+
+2022-07-26 09:35:58 - [MESSAGE][PASSED] - I should see 'Production/Laporan/Button_PilihSumberKeuangan'
+
+2022-07-26 09:35:58 - [TEST_STEP][PASSED] - I click and hold 'Production/Laporan/Button_PilihSumberKeuangan': I click and hold 'Production/Laporan/Button_PilihSumberKeuangan'
+
+2022-07-26 09:36:03 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Laporan/Button_PilihSumberKeuangan' with duration 3
+
+2022-07-26 09:36:03 - [MESSAGE][PASSED] - I click and hold 'Production/Laporan/Button_PilihSumberKeuangan'
+
+2022-07-26 09:36:03 - [TEST_STEP][PASSED] - I click 'Production/Laporan/View_SemuaDompet': I click 'Production/Laporan/View_SemuaDompet'
+
+2022-07-26 09:36:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Laporan/View_SemuaDompet'
+
+2022-07-26 09:36:04 - [MESSAGE][PASSED] - I click 'Production/Laporan/View_SemuaDompet'
+
+2022-07-26 09:36:04 - [TEST_STEP][PASSED] - I click and hold 'Production/Laporan/Button_Periode': I click and hold 'Production/Laporan/Button_Periode'
+
+2022-07-26 09:36:09 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Laporan/Button_Periode' with duration 3
+
+2022-07-26 09:36:09 - [MESSAGE][PASSED] - I click and hold 'Production/Laporan/Button_Periode'
+
+2022-07-26 09:36:09 - [TEST_STEP][PASSED] - I click 'Production/Laporan/View_SebulanTerakhir': I click 'Production/Laporan/View_SebulanTerakhir'
+
+2022-07-26 09:36:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Laporan/View_SebulanTerakhir'
+
+2022-07-26 09:36:10 - [MESSAGE][PASSED] - I click 'Production/Laporan/View_SebulanTerakhir'
+
+2022-07-26 09:36:10 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/Button_ExportSimpan': I should see 'Production/Laporan/Button_ExportSimpan'
+
+2022-07-26 09:36:10 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/Button_ExportSimpan' is visible
+
+2022-07-26 09:36:10 - [MESSAGE][PASSED] - I should see 'Production/Laporan/Button_ExportSimpan'
+
+2022-07-26 09:36:10 - [TEST_STEP][PASSED] - I click 'Production/Laporan/Button_ExportSimpan': I click 'Production/Laporan/Button_ExportSimpan'
+
+2022-07-26 09:36:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Laporan/Button_ExportSimpan'
+
+2022-07-26 09:36:11 - [MESSAGE][PASSED] - I click 'Production/Laporan/Button_ExportSimpan'
+
+2022-07-26 09:36:11 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/View_DataKeuanganTidakAda': I should see 'Production/Laporan/View_DataKeuanganTidakAda'
+
+2022-07-26 09:36:11 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/View_DataKeuanganTidakAda' is visible
+
+2022-07-26 09:36:11 - [MESSAGE][PASSED] - I should see 'Production/Laporan/View_DataKeuanganTidakAda'
+
+2022-07-26 09:36:11 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/View_DataKeuanganTidakAda2': I should see 'Production/Laporan/View_DataKeuanganTidakAda2'
+
+2022-07-26 09:36:11 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/View_DataKeuanganTidakAda2' is visible
+
+2022-07-26 09:36:11 - [MESSAGE][PASSED] - I should see 'Production/Laporan/View_DataKeuanganTidakAda2'
+
+2022-07-26 09:36:11 - [TEST_STEP][PASSED] - I should see 'Production/Laporan/Button_MengertiOK': I should see 'Production/Laporan/Button_MengertiOK'
+
+2022-07-26 09:36:11 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Laporan/Button_MengertiOK' is visible
+
+2022-07-26 09:36:11 - [MESSAGE][PASSED] - I should see 'Production/Laporan/Button_MengertiOK'
+
+2022-07-26 09:36:11 - [TEST_STEP][PASSED] - I click 'Production/Laporan/Button_MengertiOK': I click 'Production/Laporan/Button_MengertiOK'
+
+2022-07-26 09:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Laporan/Button_MengertiOK'
+
+2022-07-26 09:36:12 - [MESSAGE][PASSED] - I click 'Production/Laporan/Button_MengertiOK'
+
+2022-07-26 09:36:12 - [TEST_STEP][PASSED] - I press back: I press back
+
+2022-07-26 09:36:13 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:36:13 - [MESSAGE][PASSED] - I press back
+
+2022-07-26 09:36:13 - [MESSAGE][PASSED] - Feature file: 'Include/features/LaporanWith0Trx.feature' was passed
+
+2022-07-26 09:36:13 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/Transaksi.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Transaksi.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Regression.run(Regression:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658802836054.run(TempTestSuite1658802836054.groovy:36)
+)
+
+2022-07-26 09:36:13 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Transaksi.feature' and extract report to folder: 'C:\Users\MSI\git\automation-fe\Reports\20220726_093355\New Test Suite\20220726_093356/cucumber_report/1658802973022'...
+
+2022-07-26 09:36:13 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to see transaction page: SCENARIO As user i want to see transaction page
+
+2022-07-26 09:36:13 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:36:13 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:36:19 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:36:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:36:24 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:36:24 - [TEST_STEP][PASSED] - I tap app: I tap app
+
+2022-07-26 09:36:24 - [MESSAGE][PASSED] - Tapped at [200, 300]
+
+2022-07-26 09:36:24 - [MESSAGE][PASSED] - I tap app
+
+2022-07-26 09:36:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to see transaction page: SCENARIO As user i want to see transaction page
+
+2022-07-26 09:36:24 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:36:24 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:36:30 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:36:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:36:35 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:36:35 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/Button_Transaksi': I should see 'Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:36:35 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/Button_Transaksi' is visible
+
+2022-07-26 09:36:35 - [MESSAGE][PASSED] - I should see 'Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:36:35 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:36:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:36:39 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:36:39 - [TEST_STEP][PASSED] - I tap app: I tap app
+
+2022-07-26 09:36:39 - [MESSAGE][PASSED] - Tapped at [200, 300]
+
+2022-07-26 09:36:39 - [MESSAGE][PASSED] - I tap app
+
+2022-07-26 09:36:39 - [TEST_STEP][PASSED] - I click 'Production/HomePage/Button_Transaksi': I click 'Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:36:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:36:40 - [MESSAGE][PASSED] - I click 'Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:36:40 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:36:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:36:44 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:36:44 - [TEST_STEP][PASSED] - I tap app: I tap app
+
+2022-07-26 09:36:45 - [MESSAGE][PASSED] - Tapped at [200, 300]
+
+2022-07-26 09:36:45 - [MESSAGE][PASSED] - I tap app
+
+2022-07-26 09:36:45 - [TEST_STEP][PASSED] - I tap app: I tap app
+
+2022-07-26 09:36:45 - [MESSAGE][PASSED] - Tapped at [200, 300]
+
+2022-07-26 09:36:45 - [MESSAGE][PASSED] - I tap app
+
+2022-07-26 09:36:45 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_Transaksi': I should see 'Production/Transaksi/Text_Transaksi'
+
+2022-07-26 09:36:45 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_Transaksi' is visible
+
+2022-07-26 09:36:45 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_Transaksi'
+
+2022-07-26 09:36:45 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_TanpaTransaksi': I should see 'Production/Transaksi/Text_TanpaTransaksi'
+
+2022-07-26 09:36:45 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_TanpaTransaksi' is visible
+
+2022-07-26 09:36:45 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_TanpaTransaksi'
+
+2022-07-26 09:36:45 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_CatatTransaksi': I should see 'Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:36:46 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_CatatTransaksi' is visible
+
+2022-07-26 09:36:46 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:36:46 - [TEST_STEP][PASSED] - I wait for 2 seconds: I wait for 2 seconds
+
+2022-07-26 09:36:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 09:36:48 - [MESSAGE][PASSED] - I wait for 2 seconds
+
+2022-07-26 09:36:48 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_CatatTransaksi': I click 'Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:36:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:36:49 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:36:49 - [TEST_STEP][PASSED] - I press back: I press back
+
+2022-07-26 09:36:49 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:36:49 - [MESSAGE][PASSED] - I press back
+
+2022-07-26 09:36:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to make first transaction out: SCENARIO As user i want to make first transaction out
+
+2022-07-26 09:36:49 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:36:49 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:36:55 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:37:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:37:00 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:37:00 - [TEST_STEP][PASSED] - I should see 'Production/HomePage/Button_Transaksi': I should see 'Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:37:00 - [MESSAGE][PASSED] - Element 'Object Repository/Production/HomePage/Button_Transaksi' is visible
+
+2022-07-26 09:37:00 - [MESSAGE][PASSED] - I should see 'Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:37:00 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:37:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:37:04 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:37:04 - [TEST_STEP][PASSED] - I click 'Production/HomePage/Button_Transaksi': I click 'Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:37:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:37:05 - [MESSAGE][PASSED] - I click 'Production/HomePage/Button_Transaksi'
+
+2022-07-26 09:37:05 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:37:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:37:09 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:37:09 - [TEST_STEP][PASSED] - I tap app: I tap app
+
+2022-07-26 09:37:09 - [MESSAGE][PASSED] - Tapped at [200, 300]
+
+2022-07-26 09:37:09 - [MESSAGE][PASSED] - I tap app
+
+2022-07-26 09:37:09 - [TEST_STEP][PASSED] - I tap app: I tap app
+
+2022-07-26 09:37:10 - [MESSAGE][PASSED] - Tapped at [200, 300]
+
+2022-07-26 09:37:10 - [MESSAGE][PASSED] - I tap app
+
+2022-07-26 09:37:10 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_Transaksi': I should see 'Production/Transaksi/Text_Transaksi'
+
+2022-07-26 09:37:10 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_Transaksi' is visible
+
+2022-07-26 09:37:10 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_Transaksi'
+
+2022-07-26 09:37:10 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_TanpaTransaksi': I should see 'Production/Transaksi/Text_TanpaTransaksi'
+
+2022-07-26 09:37:10 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_TanpaTransaksi' is visible
+
+2022-07-26 09:37:10 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_TanpaTransaksi'
+
+2022-07-26 09:37:10 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_CatatTransaksi': I should see 'Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:37:10 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_CatatTransaksi' is visible
+
+2022-07-26 09:37:10 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:37:10 - [TEST_STEP][PASSED] - I wait for 2 seconds: I wait for 2 seconds
+
+2022-07-26 09:37:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-26 09:37:12 - [MESSAGE][PASSED] - I wait for 2 seconds
+
+2022-07-26 09:37:12 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_CatatTransaksi': I click 'Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:37:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:37:14 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_CatatTransaksi'
+
+2022-07-26 09:37:14 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_Pengeluaran': I should see 'Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:37:15 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_Pengeluaran' is visible
+
+2022-07-26 09:37:15 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:37:15 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Pengeluaran': I click 'Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:37:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:37:16 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:37:16 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Nominal': I click 'Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:37:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:37:16 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:37:16 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_1': I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:37:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:37:18 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:37:18 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:37:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:37:18 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:37:18 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:37:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:37:19 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:37:19 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Simpan': I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:37:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:37:20 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:37:20 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Pilih_Kategori': I click 'Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:37:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:37:21 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:37:21 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Kategori_Edukasi': I click 'Production/Transaksi/Kategori_Edukasi'
+
+2022-07-26 09:37:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Kategori_Edukasi'
+
+2022-07-26 09:37:23 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Kategori_Edukasi'
+
+2022-07-26 09:37:23 - [TEST_STEP][PASSED] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:37:24 - [MESSAGE][PASSED] - Swiped from 63,1,154 to 63,675
+
+2022-07-26 09:37:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:37:27 - [MESSAGE][PASSED] - I swipe to bottom trx
+
+2022-07-26 09:37:27 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Deskipsi': I click 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:37:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:37:27 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:37:27 - [TEST_STEP][PASSED] - I type 'Automation out FE' on 'Production/Transaksi/Button_Deskipsi': I type 'Automation out FE' on 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:37:28 - [MESSAGE][PASSED] - Text 'Automation out FE' has been set to element 'Object Repository/Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:37:28 - [MESSAGE][PASSED] - I type 'Automation out FE' on 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:37:28 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:37:28 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:37:28 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:37:28 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_TambahTransaksi': I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:37:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:37:30 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:37:30 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:37:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:37:34 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:37:34 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_CieBerhasilTransaksiPertama': I should see 'Production/Transaksi/Text_CieBerhasilTransaksiPertama'
+
+2022-07-26 09:37:34 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_CieBerhasilTransaksiPertama' is visible
+
+2022-07-26 09:37:34 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_CieBerhasilTransaksiPertama'
+
+2022-07-26 09:37:34 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_OkLanjut': I click 'Production/Transaksi/Button_OkLanjut'
+
+2022-07-26 09:37:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_OkLanjut'
+
+2022-07-26 09:37:35 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_OkLanjut'
+
+2022-07-26 09:37:35 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:37:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:37:39 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:37:39 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to make transaction in: SCENARIO As user i want to make transaction in
+
+2022-07-26 09:37:39 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:37:39 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:37:45 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:37:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:37:50 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:37:50 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_PlusTransaksi': I should see 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:37:50 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_PlusTransaksi' is visible
+
+2022-07-26 09:37:50 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:37:50 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:37:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:37:54 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:37:54 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PlusTransaksi': I click 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:37:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:37:55 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:37:55 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:37:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:37:59 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:37:59 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_Pendapatan': I should see 'Production/Transaksi/Button_Pendapatan'
+
+2022-07-26 09:37:59 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_Pendapatan' is visible
+
+2022-07-26 09:37:59 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_Pendapatan'
+
+2022-07-26 09:37:59 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:38:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:38:03 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:38:03 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Button_Pendapatan': I click and hold 'Production/Transaksi/Button_Pendapatan'
+
+2022-07-26 09:38:08 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Button_Pendapatan' with duration 3
+
+2022-07-26 09:38:08 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Button_Pendapatan'
+
+2022-07-26 09:38:08 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Nominal': I click 'Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:38:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:38:08 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:38:08 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_1': I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:38:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:38:10 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:38:10 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:10 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:10 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:11 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:11 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Simpan': I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:38:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:38:12 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:38:12 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Pilih_Kategori': I click 'Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:38:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:38:13 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:38:13 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Kategori_Gaji': I click 'Production/Transaksi/Kategori_Gaji'
+
+2022-07-26 09:38:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Kategori_Gaji'
+
+2022-07-26 09:38:14 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Kategori_Gaji'
+
+2022-07-26 09:38:14 - [TEST_STEP][PASSED] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:38:15 - [MESSAGE][PASSED] - Swiped from 63,1,154 to 63,675
+
+2022-07-26 09:38:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:38:18 - [MESSAGE][PASSED] - I swipe to bottom trx
+
+2022-07-26 09:38:18 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Deskipsi': I click 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:38:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:38:18 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:38:18 - [TEST_STEP][PASSED] - I type 'Automation in FE' on 'Production/Transaksi/Button_Deskipsi': I type 'Automation in FE' on 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:38:19 - [MESSAGE][PASSED] - Text 'Automation in FE' has been set to element 'Object Repository/Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:38:19 - [MESSAGE][PASSED] - I type 'Automation in FE' on 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:38:19 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:38:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:38:19 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:38:19 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_TambahTransaksi': I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:38:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:38:20 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:38:20 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:38:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:38:24 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:38:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to make transaction IN repeatly: SCENARIO As user i want to make transaction IN repeatly
+
+2022-07-26 09:38:24 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:38:24 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:38:30 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:38:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:38:35 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:38:35 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_PlusTransaksi': I should see 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:38:36 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_PlusTransaksi' is visible
+
+2022-07-26 09:38:36 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:38:36 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:38:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:38:40 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:38:40 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PlusTransaksi': I click 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:38:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:38:41 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:38:41 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:38:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:38:45 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:38:45 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_Pendapatan': I should see 'Production/Transaksi/Button_Pendapatan'
+
+2022-07-26 09:38:45 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_Pendapatan' is visible
+
+2022-07-26 09:38:45 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_Pendapatan'
+
+2022-07-26 09:38:45 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:38:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:38:49 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:38:49 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Button_Pendapatan': I click and hold 'Production/Transaksi/Button_Pendapatan'
+
+2022-07-26 09:38:54 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Button_Pendapatan' with duration 3
+
+2022-07-26 09:38:54 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Button_Pendapatan'
+
+2022-07-26 09:38:54 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Nominal': I click 'Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:38:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:38:54 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:38:54 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_1': I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:38:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:38:56 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:38:56 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:56 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:56 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:57 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:38:57 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Simpan': I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:38:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:38:58 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:38:58 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Pilih_Kategori': I click 'Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:38:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:38:59 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:38:59 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Kategori_Gaji': I click 'Production/Transaksi/Kategori_Gaji'
+
+2022-07-26 09:39:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Kategori_Gaji'
+
+2022-07-26 09:39:00 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Kategori_Gaji'
+
+2022-07-26 09:39:00 - [TEST_STEP][PASSED] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:39:01 - [MESSAGE][PASSED] - Swiped from 63,1,154 to 63,675
+
+2022-07-26 09:39:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:39:04 - [MESSAGE][PASSED] - I swipe to bottom trx
+
+2022-07-26 09:39:04 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/CheckBox_Berulang': I click 'Production/Transaksi/CheckBox_Berulang'
+
+2022-07-26 09:39:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/CheckBox_Berulang'
+
+2022-07-26 09:39:05 - [MESSAGE][PASSED] - I click 'Production/Transaksi/CheckBox_Berulang'
+
+2022-07-26 09:39:05 - [TEST_STEP][PASSED] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:39:06 - [MESSAGE][PASSED] - Swiped from 63,1,154 to 63,675
+
+2022-07-26 09:39:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:39:09 - [MESSAGE][PASSED] - I swipe to bottom trx
+
+2022-07-26 09:39:09 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PilihPeriode': I click 'Production/Transaksi/Button_PilihPeriode'
+
+2022-07-26 09:39:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PilihPeriode'
+
+2022-07-26 09:39:09 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PilihPeriode'
+
+2022-07-26 09:39:09 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_BerulangTiapHari': I click 'Production/Transaksi/Button_BerulangTiapHari'
+
+2022-07-26 09:39:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_BerulangTiapHari'
+
+2022-07-26 09:39:11 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_BerulangTiapHari'
+
+2022-07-26 09:39:11 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PilihWaktu': I click 'Production/Transaksi/Button_PilihWaktu'
+
+2022-07-26 09:39:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PilihWaktu'
+
+2022-07-26 09:39:11 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PilihWaktu'
+
+2022-07-26 09:39:11 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Selamanya': I click 'Production/Transaksi/Button_Selamanya'
+
+2022-07-26 09:39:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Selamanya'
+
+2022-07-26 09:39:12 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Selamanya'
+
+2022-07-26 09:39:12 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Deskipsi': I click 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:39:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:39:13 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:39:13 - [TEST_STEP][PASSED] - I type 'Automation Berulang IN FE' on 'Production/Transaksi/Button_Deskipsi': I type 'Automation Berulang IN FE' on 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:39:14 - [MESSAGE][PASSED] - Text 'Automation Berulang IN FE' has been set to element 'Object Repository/Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:39:14 - [MESSAGE][PASSED] - I type 'Automation Berulang IN FE' on 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:39:14 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:39:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:39:15 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:39:15 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_TambahTransaksi': I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:39:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:39:15 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:39:15 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:39:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:39:19 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:39:19 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to make transaction OUT repeatly: SCENARIO As user i want to make transaction OUT repeatly
+
+2022-07-26 09:39:19 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:39:19 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:39:26 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:39:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:39:31 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:39:31 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_PlusTransaksi': I should see 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:39:31 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_PlusTransaksi' is visible
+
+2022-07-26 09:39:31 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:39:31 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:39:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:39:35 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:39:35 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PlusTransaksi': I click 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:39:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:39:35 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:39:35 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:39:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:39:39 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:39:39 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_Pengeluaran': I should see 'Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:39:40 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_Pengeluaran' is visible
+
+2022-07-26 09:39:40 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:39:40 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:39:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:39:44 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:39:44 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Button_Pengeluaran': I click and hold 'Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:39:48 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Button_Pengeluaran' with duration 3
+
+2022-07-26 09:39:48 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Button_Pengeluaran'
+
+2022-07-26 09:39:48 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Nominal': I click 'Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:39:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:39:49 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Nominal'
+
+2022-07-26 09:39:49 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_1': I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:39:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:39:50 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:39:50 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:39:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:39:51 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:39:51 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:39:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:39:52 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:39:52 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Simpan': I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:39:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:39:52 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:39:52 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Pilih_Kategori': I click 'Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:39:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:39:53 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Pilih_Kategori'
+
+2022-07-26 09:39:53 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Kategori_Edukasi': I click 'Production/Transaksi/Kategori_Edukasi'
+
+2022-07-26 09:39:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Kategori_Edukasi'
+
+2022-07-26 09:39:55 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Kategori_Edukasi'
+
+2022-07-26 09:39:55 - [TEST_STEP][PASSED] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:39:56 - [MESSAGE][PASSED] - Swiped from 63,1,154 to 63,675
+
+2022-07-26 09:39:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:39:59 - [MESSAGE][PASSED] - I swipe to bottom trx
+
+2022-07-26 09:39:59 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/CheckBox_Berulang': I click 'Production/Transaksi/CheckBox_Berulang'
+
+2022-07-26 09:40:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/CheckBox_Berulang'
+
+2022-07-26 09:40:00 - [MESSAGE][PASSED] - I click 'Production/Transaksi/CheckBox_Berulang'
+
+2022-07-26 09:40:00 - [TEST_STEP][PASSED] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:40:01 - [MESSAGE][PASSED] - Swiped from 63,1,154 to 63,675
+
+2022-07-26 09:40:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:40:04 - [MESSAGE][PASSED] - I swipe to bottom trx
+
+2022-07-26 09:40:04 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PilihPeriode': I click 'Production/Transaksi/Button_PilihPeriode'
+
+2022-07-26 09:40:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PilihPeriode'
+
+2022-07-26 09:40:04 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PilihPeriode'
+
+2022-07-26 09:40:04 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_BerulangTiapHari': I click 'Production/Transaksi/Button_BerulangTiapHari'
+
+2022-07-26 09:40:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_BerulangTiapHari'
+
+2022-07-26 09:40:06 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_BerulangTiapHari'
+
+2022-07-26 09:40:06 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PilihWaktu': I click 'Production/Transaksi/Button_PilihWaktu'
+
+2022-07-26 09:40:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PilihWaktu'
+
+2022-07-26 09:40:06 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PilihWaktu'
+
+2022-07-26 09:40:06 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Selamanya': I click 'Production/Transaksi/Button_Selamanya'
+
+2022-07-26 09:40:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Selamanya'
+
+2022-07-26 09:40:08 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Selamanya'
+
+2022-07-26 09:40:08 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Deskipsi': I click 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:40:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:40:08 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:40:08 - [TEST_STEP][PASSED] - I type 'Automation Berulang OUT FE' on 'Production/Transaksi/Button_Deskipsi': I type 'Automation Berulang OUT FE' on 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:40:09 - [MESSAGE][PASSED] - Text 'Automation Berulang OUT FE' has been set to element 'Object Repository/Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:40:09 - [MESSAGE][PASSED] - I type 'Automation Berulang OUT FE' on 'Production/Transaksi/Button_Deskipsi'
+
+2022-07-26 09:40:09 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:40:10 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:40:10 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:40:10 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_TambahTransaksi': I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:40:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:40:10 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:40:10 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:40:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:40:14 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:40:14 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO As user i want to make tabungan tujuan keuanganmu: SCENARIO As user i want to make tabungan tujuan keuanganmu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Production/Transaksi/Button_TabunganLainnya not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Script.I_click(Script.groovy:94)
+	at ✽.I click 'Production/Transaksi/Button_TabunganLainnya'(C:/Users/MSI/git/automation-fe/Include/features/Transaksi.feature:159)
+
+
+2022-07-26 09:40:14 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:40:14 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:40:20 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:40:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:40:25 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:40:25 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_PlusTransaksi': I should see 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:40:26 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_PlusTransaksi' is visible
+
+2022-07-26 09:40:26 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:40:26 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:40:30 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:40:30 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:40:30 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PlusTransaksi': I click 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:40:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:40:30 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PlusTransaksi'
+
+2022-07-26 09:40:30 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:40:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:40:34 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:40:34 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_Tabungan': I should see 'Production/Transaksi/Button_Tabungan'
+
+2022-07-26 09:40:34 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_Tabungan' is visible
+
+2022-07-26 09:40:34 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_Tabungan'
+
+2022-07-26 09:40:34 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:40:38 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:40:38 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:40:38 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Button_Tabungan': I click and hold 'Production/Transaksi/Button_Tabungan'
+
+2022-07-26 09:40:43 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Button_Tabungan' with duration 3
+
+2022-07-26 09:40:43 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Button_Tabungan'
+
+2022-07-26 09:40:43 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_PilihTabungan': I click 'Production/Transaksi/Button_PilihTabungan'
+
+2022-07-26 09:40:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_PilihTabungan'
+
+2022-07-26 09:40:43 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_PilihTabungan'
+
+2022-07-26 09:40:43 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_TujuanKeuanganMu': I click 'Production/Transaksi/Button_TujuanKeuanganMu'
+
+2022-07-26 09:40:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_TujuanKeuanganMu'
+
+2022-07-26 09:40:45 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_TujuanKeuanganMu'
+
+2022-07-26 09:40:45 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:40:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:40:49 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:40:49 - [TEST_STEP][FAILED] - I click 'Production/Transaksi/Button_TabunganLainnya': I click 'Production/Transaksi/Button_TabunganLainnya' FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Production/Transaksi/Button_TabunganLainnya not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Script.I_click(Script.groovy:94)
+	at ✽.I click 'Production/Transaksi/Button_TabunganLainnya'(C:/Users/MSI/git/automation-fe/Include/features/Transaksi.feature:159)
+
+
+2022-07-26 09:41:00 - [MESSAGE][FAILED] - Object Object Repository/Production/Transaksi/Button_TabunganLainnya not found
+[[ATTACHMENT|C:\\Users\\MSI\\git\\automation-fe\\Reports\\20220726_093355\\New Test Suite\\20220726_093356\\1658803259907.png]]
+
+2022-07-26 09:41:00 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Production/Transaksi/Button_TabunganLainnya' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Production/Transaksi/Button_TabunganLainnya not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Script.I_click(Script.groovy:94)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:47)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:108)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Regression.run(Regression:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658802836054.run(TempTestSuite1658802836054.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\MSI\\git\\automation-fe\\Reports\\20220726_093355\\New Test Suite\\20220726_093356\\1658803260174.png]]
+
+2022-07-26 09:41:00 - [MESSAGE][FAILED] - I click 'Production/Transaksi/Button_TabunganLainnya' FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Production/Transaksi/Button_TabunganLainnya not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)
+	at Script.I_click(Script.groovy:94)
+	at ✽.I click 'Production/Transaksi/Button_TabunganLainnya'(C:/Users/MSI/git/automation-fe/Include/features/Transaksi.feature:159)
+
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I click 'Production/Transaksi/Button_NominalTabungan': I click 'Production/Transaksi/Button_NominalTabungan'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I click 'Production/Transaksi/Button_NominalTabungan'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I click 'Production/Transaksi/Button_Angka_1': I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I click 'Production/Transaksi/Button_Angka_1'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I click 'Production/Transaksi/Button_Angka_000': I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I click 'Production/Transaksi/Button_Angka_000'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I click 'Production/Transaksi/Button_Simpan': I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I swipe to bottom trx: I swipe to bottom trx
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I swipe to bottom trx
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I click 'Production/Transaksi/Field_DeskripsiTabungan': I click 'Production/Transaksi/Field_DeskripsiTabungan'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I click 'Production/Transaksi/Field_DeskripsiTabungan'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I type 'Automation TabunganLainnya FE' on 'Production/Transaksi/Field_DeskripsiTabungan': I type 'Automation TabunganLainnya FE' on 'Production/Transaksi/Field_DeskripsiTabungan'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I type 'Automation TabunganLainnya FE' on 'Production/Transaksi/Field_DeskripsiTabungan'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I hide keyboard
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I click 'Production/Transaksi/Button_TambahTransaksi': I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I click 'Production/Transaksi/Button_TambahTransaksi'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I should see 'Production/Transaksi/Text_BerhasilMenabung': I should see 'Production/Transaksi/Text_BerhasilMenabung'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I should see 'Production/Transaksi/Text_BerhasilMenabung'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I click 'Production/Transaksi/Button_NantiSaja': I click 'Production/Transaksi/Button_NantiSaja'
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I click 'Production/Transaksi/Button_NantiSaja'
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I wait for 4 seconds
+
+2022-07-26 09:41:00 - [TEST_STEP][NOT_RUN] - I close app: I close app
+
+2022-07-26 09:41:00 - [MESSAGE][NOT_RUN] - I close app
+
+2022-07-26 09:41:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to verify riwayat transaksi and all the field: SCENARIO As user i want to verify riwayat transaksi and all the field
+
+2022-07-26 09:41:00 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:41:00 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:41:06 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:41:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:41:11 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:41:11 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_Pendapatan': I should see 'Production/Transaksi/Text_Pendapatan'
+
+2022-07-26 09:41:11 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_Pendapatan' is visible
+
+2022-07-26 09:41:11 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_Pendapatan'
+
+2022-07-26 09:41:11 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_Pengeluaran': I should see 'Production/Transaksi/Text_Pengeluaran'
+
+2022-07-26 09:41:11 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_Pengeluaran' is visible
+
+2022-07-26 09:41:11 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_Pengeluaran'
+
+2022-07-26 09:41:11 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_Tabungan': I should see 'Production/Transaksi/Text_Tabungan'
+
+2022-07-26 09:41:11 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_Tabungan' is visible
+
+2022-07-26 09:41:11 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_Tabungan'
+
+2022-07-26 09:41:11 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Text_SisaUangKamu': I should see 'Production/Transaksi/Text_SisaUangKamu'
+
+2022-07-26 09:41:12 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Text_SisaUangKamu' is visible
+
+2022-07-26 09:41:12 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Text_SisaUangKamu'
+
+2022-07-26 09:41:12 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_TransaksiBerulang': I should see 'Production/Transaksi/Button_TransaksiBerulang'
+
+2022-07-26 09:41:12 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_TransaksiBerulang' is visible
+
+2022-07-26 09:41:12 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_TransaksiBerulang'
+
+2022-07-26 09:41:12 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT': I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:41:12 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' is visible
+
+2022-07-26 09:41:12 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:41:12 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_ToolTipTransaksi': I should see 'Production/Transaksi/Button_ToolTipTransaksi'
+
+2022-07-26 09:41:12 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_ToolTipTransaksi' is visible
+
+2022-07-26 09:41:12 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_ToolTipTransaksi'
+
+2022-07-26 09:41:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to filter transaction 1 minggu: SCENARIO As user i want to filter transaction 1 minggu
+
+2022-07-26 09:41:12 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:41:12 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:41:18 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:41:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:41:23 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:41:23 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_Filter': I should see 'Production/Transaksi/Button_Filter'
+
+2022-07-26 09:41:23 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_Filter' is visible
+
+2022-07-26 09:41:23 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_Filter'
+
+2022-07-26 09:41:23 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:41:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:41:27 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:41:27 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Button_Filter': I click and hold 'Production/Transaksi/Button_Filter'
+
+2022-07-26 09:41:32 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Button_Filter' with duration 3
+
+2022-07-26 09:41:32 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Button_Filter'
+
+2022-07-26 09:41:32 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Filter_1MingguTerakhir': I click and hold 'Production/Transaksi/Filter_1MingguTerakhir'
+
+2022-07-26 09:41:36 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Filter_1MingguTerakhir' with duration 3
+
+2022-07-26 09:41:36 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Filter_1MingguTerakhir'
+
+2022-07-26 09:41:36 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:41:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:41:40 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:41:40 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Filter_KAS': I should see 'Production/Transaksi/Filter_KAS'
+
+2022-07-26 09:41:40 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Filter_KAS' is visible
+
+2022-07-26 09:41:40 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Filter_KAS'
+
+2022-07-26 09:41:40 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Filter_KAS': I click and hold 'Production/Transaksi/Filter_KAS'
+
+2022-07-26 09:41:45 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Filter_KAS' with duration 3
+
+2022-07-26 09:41:45 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Filter_KAS'
+
+2022-07-26 09:41:45 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:41:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:41:49 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:41:49 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Filter_Edukasi': I click and hold 'Production/Transaksi/Filter_Edukasi'
+
+2022-07-26 09:41:54 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Filter_Edukasi' with duration 3
+
+2022-07-26 09:41:54 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Filter_Edukasi'
+
+2022-07-26 09:41:54 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_TerapkanFilter': I click 'Production/Transaksi/Button_TerapkanFilter'
+
+2022-07-26 09:41:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_TerapkanFilter'
+
+2022-07-26 09:41:55 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_TerapkanFilter'
+
+2022-07-26 09:41:55 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:41:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:41:59 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:41:59 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT': I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:41:59 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' is visible
+
+2022-07-26 09:41:59 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:41:59 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to filter transaction 2 Bulan: SCENARIO As user i want to filter transaction 2 Bulan
+
+2022-07-26 09:41:59 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:41:59 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:42:05 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:42:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:42:10 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:42:10 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_Filter': I should see 'Production/Transaksi/Button_Filter'
+
+2022-07-26 09:42:11 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_Filter' is visible
+
+2022-07-26 09:42:11 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_Filter'
+
+2022-07-26 09:42:11 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:42:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:42:15 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:42:15 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Button_Filter': I click and hold 'Production/Transaksi/Button_Filter'
+
+2022-07-26 09:42:19 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Button_Filter' with duration 3
+
+2022-07-26 09:42:19 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Button_Filter'
+
+2022-07-26 09:42:19 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Filter_3BulanTerakhir': I click and hold 'Production/Transaksi/Filter_3BulanTerakhir'
+
+2022-07-26 09:42:24 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Filter_3BulanTerakhir' with duration 3
+
+2022-07-26 09:42:24 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Filter_3BulanTerakhir'
+
+2022-07-26 09:42:24 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:42:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:42:28 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:42:28 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Filter_KAS': I should see 'Production/Transaksi/Filter_KAS'
+
+2022-07-26 09:42:28 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Filter_KAS' is visible
+
+2022-07-26 09:42:28 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Filter_KAS'
+
+2022-07-26 09:42:28 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Filter_KAS': I click and hold 'Production/Transaksi/Filter_KAS'
+
+2022-07-26 09:42:33 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Filter_KAS' with duration 3
+
+2022-07-26 09:42:33 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Filter_KAS'
+
+2022-07-26 09:42:33 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:42:37 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:42:37 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:42:37 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Filter_Edukasi': I click and hold 'Production/Transaksi/Filter_Edukasi'
+
+2022-07-26 09:42:41 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Filter_Edukasi' with duration 3
+
+2022-07-26 09:42:41 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Filter_Edukasi'
+
+2022-07-26 09:42:41 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_TerapkanFilter': I click 'Production/Transaksi/Button_TerapkanFilter'
+
+2022-07-26 09:42:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_TerapkanFilter'
+
+2022-07-26 09:42:42 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_TerapkanFilter'
+
+2022-07-26 09:42:42 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:42:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:42:46 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:42:46 - [TEST_STEP][PASSED] - I swipe to bottom: I swipe to bottom
+
+2022-07-26 09:42:47 - [MESSAGE][PASSED] - Swiped from 500,1,600 to 500,0
+
+2022-07-26 09:42:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:42:50 - [MESSAGE][PASSED] - I swipe to bottom
+
+2022-07-26 09:42:50 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT': I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:42:50 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' is visible
+
+2022-07-26 09:42:50 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:42:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to searching transaction with valid transaction: SCENARIO As user i want to searching transaction with valid transaction
+
+2022-07-26 09:42:50 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:42:50 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:42:56 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:43:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:43:01 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:43:01 - [TEST_STEP][PASSED] - I scroll to up: I scroll to up
+
+2022-07-26 09:43:02 - [MESSAGE][PASSED] - Swiped from 691,180 to 1,017,800
+
+2022-07-26 09:43:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:43:05 - [MESSAGE][PASSED] - I scroll to up
+
+2022-07-26 09:43:05 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_CariTransaksi': I should see 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:05 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_CariTransaksi' is visible
+
+2022-07-26 09:43:05 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:05 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:43:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:43:09 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:43:09 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/View_CariTransaksi': I click and hold 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:14 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/View_CariTransaksi' with duration 3
+
+2022-07-26 09:43:14 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:14 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:43:18 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:43:18 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:43:18 - [TEST_STEP][PASSED] - I type 'Automation out FE' on 'Production/Transaksi/View_CariTransaksi': I type 'Automation out FE' on 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:18 - [MESSAGE][PASSED] - Text 'Automation out FE' has been set to element 'Object Repository/Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:18 - [MESSAGE][PASSED] - I type 'Automation out FE' on 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:18 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:43:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:43:22 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:43:22 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:43:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:43:22 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:43:22 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT': I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:43:23 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' is visible
+
+2022-07-26 09:43:23 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:43:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to searching transaction with invalid transaction: SCENARIO As user i want to searching transaction with invalid transaction
+
+2022-07-26 09:43:23 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:43:23 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:43:29 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:43:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:43:34 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:43:34 - [TEST_STEP][PASSED] - I scroll to up trx: I scroll to up trx
+
+2022-07-26 09:43:35 - [MESSAGE][PASSED] - Swiped from 1,066,1,080 to 1,306,1,989
+
+2022-07-26 09:43:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:43:38 - [MESSAGE][PASSED] - I scroll to up trx
+
+2022-07-26 09:43:38 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Search_Delete': I should see 'Production/Transaksi/Search_Delete'
+
+2022-07-26 09:43:38 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Search_Delete' is visible
+
+2022-07-26 09:43:38 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Search_Delete'
+
+2022-07-26 09:43:38 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Search_Delete': I click 'Production/Transaksi/Search_Delete'
+
+2022-07-26 09:43:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Search_Delete'
+
+2022-07-26 09:43:39 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Search_Delete'
+
+2022-07-26 09:43:39 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_CariTransaksi': I should see 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:39 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_CariTransaksi' is visible
+
+2022-07-26 09:43:39 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:39 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:43:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:43:43 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:43:43 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/View_CariTransaksi': I click and hold 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:48 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/View_CariTransaksi' with duration 3
+
+2022-07-26 09:43:48 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:48 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:43:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:43:52 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:43:52 - [TEST_STEP][PASSED] - I type 'Tidak Ada' on 'Production/Transaksi/View_CariTransaksi': I type 'Tidak Ada' on 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:52 - [MESSAGE][PASSED] - Text 'Tidak Ada' has been set to element 'Object Repository/Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:52 - [MESSAGE][PASSED] - I type 'Tidak Ada' on 'Production/Transaksi/View_CariTransaksi'
+
+2022-07-26 09:43:52 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:43:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:43:56 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:43:56 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:43:57 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:43:57 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:43:57 - [TEST_STEP][PASSED] - I should not see 'Production/Transaksi/Transaksi_AutomationOUT': I should not see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:02 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' not found
+
+2022-07-26 09:44:02 - [MESSAGE][PASSED] - I should not see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to see the detail transaction: SCENARIO As user i want to see the detail transaction
+
+2022-07-26 09:44:02 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:44:02 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:44:08 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:44:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:44:13 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:44:13 - [TEST_STEP][PASSED] - I swipe to bottom: I swipe to bottom
+
+2022-07-26 09:44:14 - [MESSAGE][PASSED] - Swiped from 500,1,600 to 500,0
+
+2022-07-26 09:44:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-26 09:44:17 - [MESSAGE][PASSED] - I swipe to bottom
+
+2022-07-26 09:44:17 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT': I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:17 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' is visible
+
+2022-07-26 09:44:17 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:17 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:44:21 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:44:21 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:44:21 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Transaksi_AutomationOUT': I click and hold 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:26 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' with duration 3
+
+2022-07-26 09:44:26 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:26 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:44:30 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:44:30 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:44:30 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_DetailJenisPengeluaran': I should see 'Production/Transaksi/View_DetailJenisPengeluaran'
+
+2022-07-26 09:44:30 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_DetailJenisPengeluaran' is visible
+
+2022-07-26 09:44:30 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_DetailJenisPengeluaran'
+
+2022-07-26 09:44:30 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:44:34 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_DetailKategoriOUT': I should see 'Production/Transaksi/View_DetailKategoriOUT'
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_DetailKategoriOUT' is visible
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_DetailKategoriOUT'
+
+2022-07-26 09:44:34 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_DetailSumberAkunOUT': I should see 'Production/Transaksi/View_DetailSumberAkunOUT'
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_DetailSumberAkunOUT' is visible
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_DetailSumberAkunOUT'
+
+2022-07-26 09:44:34 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_DetailTransaksi': I should see 'Production/Transaksi/View_DetailTransaksi'
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_DetailTransaksi' is visible
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_DetailTransaksi'
+
+2022-07-26 09:44:34 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_DetailValueOUT': I should see 'Production/Transaksi/View_DetailValueOUT'
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_DetailValueOUT' is visible
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_DetailValueOUT'
+
+2022-07-26 09:44:34 - [TEST_STEP][PASSED] - I press back: I press back
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-07-26 09:44:34 - [MESSAGE][PASSED] - I press back
+
+2022-07-26 09:44:34 - [TEST_STEP][PASSED] - I hide keyboard: I hide keyboard
+
+2022-07-26 09:44:35 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-07-26 09:44:35 - [MESSAGE][PASSED] - I hide keyboard
+
+2022-07-26 09:44:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to see change the category OUT: SCENARIO As user i want to see change the category OUT
+
+2022-07-26 09:44:35 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:44:35 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:44:41 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:44:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:44:46 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:44:46 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT': I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:46 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' is visible
+
+2022-07-26 09:44:46 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:46 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:44:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:44:50 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:44:50 - [TEST_STEP][PASSED] - I click and hold 'Production/Transaksi/Transaksi_AutomationOUT': I click and hold 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:55 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/Production/Transaksi/Transaksi_AutomationOUT' with duration 3
+
+2022-07-26 09:44:55 - [MESSAGE][PASSED] - I click and hold 'Production/Transaksi/Transaksi_AutomationOUT'
+
+2022-07-26 09:44:55 - [TEST_STEP][PASSED] - I wait for 4 seconds: I wait for 4 seconds
+
+2022-07-26 09:44:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-07-26 09:44:59 - [MESSAGE][PASSED] - I wait for 4 seconds
+
+2022-07-26 09:44:59 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Detail_EditButton': I should see 'Production/Transaksi/Detail_EditButton'
+
+2022-07-26 09:45:00 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Detail_EditButton' is visible
+
+2022-07-26 09:45:00 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Detail_EditButton'
+
+2022-07-26 09:45:00 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Detail_EditButton': I click 'Production/Transaksi/Detail_EditButton'
+
+2022-07-26 09:45:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Detail_EditButton'
+
+2022-07-26 09:45:01 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Detail_EditButton'
+
+2022-07-26 09:45:01 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_EditEdukasiBerubah': I should see 'Production/Transaksi/View_EditEdukasiBerubah'
+
+2022-07-26 09:45:01 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_EditEdukasiBerubah' is visible
+
+2022-07-26 09:45:01 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_EditEdukasiBerubah'
+
+2022-07-26 09:45:01 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/View_EditEdukasiBerubah': I click 'Production/Transaksi/View_EditEdukasiBerubah'
+
+2022-07-26 09:45:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/View_EditEdukasiBerubah'
+
+2022-07-26 09:45:01 - [MESSAGE][PASSED] - I click 'Production/Transaksi/View_EditEdukasiBerubah'
+
+2022-07-26 09:45:01 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_EditBelanja': I should see 'Production/Transaksi/View_EditBelanja'
+
+2022-07-26 09:45:02 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_EditBelanja' is visible
+
+2022-07-26 09:45:02 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_EditBelanja'
+
+2022-07-26 09:45:02 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/View_EditBelanja': I click 'Production/Transaksi/View_EditBelanja'
+
+2022-07-26 09:45:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/View_EditBelanja'
+
+2022-07-26 09:45:03 - [MESSAGE][PASSED] - I click 'Production/Transaksi/View_EditBelanja'
+
+2022-07-26 09:45:03 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_Simpan': I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:45:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:45:05 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_Simpan'
+
+2022-07-26 09:45:05 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want to see verify transaction berulang: SCENARIO As user i want to see verify transaction berulang
+
+2022-07-26 09:45:05 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:45:05 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:45:11 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:45:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:45:16 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:45:16 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Button_TransaksiBerulang': I should see 'Production/Transaksi/Button_TransaksiBerulang'
+
+2022-07-26 09:45:17 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Button_TransaksiBerulang' is visible
+
+2022-07-26 09:45:17 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Button_TransaksiBerulang'
+
+2022-07-26 09:45:17 - [TEST_STEP][PASSED] - I click 'Production/Transaksi/Button_TransaksiBerulang': I click 'Production/Transaksi/Button_TransaksiBerulang'
+
+2022-07-26 09:45:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Production/Transaksi/Button_TransaksiBerulang'
+
+2022-07-26 09:45:18 - [MESSAGE][PASSED] - I click 'Production/Transaksi/Button_TransaksiBerulang'
+
+2022-07-26 09:45:18 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Verify_AutomationBerulangIN': I should see 'Production/Transaksi/Verify_AutomationBerulangIN'
+
+2022-07-26 09:45:18 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Verify_AutomationBerulangIN' is visible
+
+2022-07-26 09:45:18 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Verify_AutomationBerulangIN'
+
+2022-07-26 09:45:18 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Verify_AutomationBerulangOUT': I should see 'Production/Transaksi/Verify_AutomationBerulangOUT'
+
+2022-07-26 09:45:18 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Verify_AutomationBerulangOUT' is visible
+
+2022-07-26 09:45:18 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Verify_AutomationBerulangOUT'
+
+2022-07-26 09:45:18 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO As user i want check the pengeluaran dan pendapatan value: SCENARIO As user i want check the pengeluaran dan pendapatan value
+
+2022-07-26 09:45:18 - [TEST_STEP][PASSED] - I open default app: I open default app
+
+2022-07-26 09:45:18 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2022-07-26 09:45:24 - [MESSAGE][PASSED] - Starting app with application ID: 'id.chatalia.app'
+
+2022-07-26 09:45:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-07-26 09:45:29 - [MESSAGE][PASSED] - I open default app
+
+2022-07-26 09:45:29 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_Pendapatan_Field': I should see 'Production/Transaksi/View_Pendapatan_Field'
+
+2022-07-26 09:45:29 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_Pendapatan_Field' is visible
+
+2022-07-26 09:45:29 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_Pendapatan_Field'
+
+2022-07-26 09:45:29 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_Pengeluaran_Field': I should see 'Production/Transaksi/View_Pengeluaran_Field'
+
+2022-07-26 09:45:29 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_Pengeluaran_Field' is visible
+
+2022-07-26 09:45:29 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_Pengeluaran_Field'
+
+2022-07-26 09:45:29 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_2Jt_Field_In': I should see 'Production/Transaksi/View_2Jt_Field_In'
+
+2022-07-26 09:45:30 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_2Jt_Field_In' is visible
+
+2022-07-26 09:45:30 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_2Jt_Field_In'
+
+2022-07-26 09:45:30 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_2Jt_Field_Out': I should see 'Production/Transaksi/View_2Jt_Field_Out'
+
+2022-07-26 09:45:30 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_2Jt_Field_Out' is visible
+
+2022-07-26 09:45:30 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_2Jt_Field_Out'
+
+2022-07-26 09:45:30 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/View_SisaUangKamu': I should see 'Production/Transaksi/View_SisaUangKamu'
+
+2022-07-26 09:45:30 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/View_SisaUangKamu' is visible
+
+2022-07-26 09:45:30 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/View_SisaUangKamu'
+
+2022-07-26 09:45:30 - [TEST_STEP][PASSED] - I should see 'Production/Transaksi/Sisa_Uang_Kamu_0': I should see 'Production/Transaksi/Sisa_Uang_Kamu_0'
+
+2022-07-26 09:45:30 - [MESSAGE][PASSED] - Element 'Object Repository/Production/Transaksi/Sisa_Uang_Kamu_0' is visible
+
+2022-07-26 09:45:30 - [MESSAGE][PASSED] - I should see 'Production/Transaksi/Sisa_Uang_Kamu_0'
+
+2022-07-26 09:45:30 - [MESSAGE][FAILED] - Feature file 'Include/features/Transaksi.feature' was failed
+
+2022-07-26 09:45:30 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Transaksi.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Regression.run(Regression:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658802836054.run(TempTestSuite1658802836054.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-26 09:33:59 - [TEST_CASE][FAILED] - Test Cases/Regression: Test Cases/Regression FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Transaksi.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Regression.run(Regression:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658802836054.run(TempTestSuite1658802836054.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-26 09:33:59 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Regression FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Transaksi.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Regression.run(Regression:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658802836054.run(TempTestSuite1658802836054.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-07-26 09:33:59 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Regression FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Transaksi.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:114)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:75)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:248)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Regression.run(Regression:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658802836054.run(TempTestSuite1658802836054.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

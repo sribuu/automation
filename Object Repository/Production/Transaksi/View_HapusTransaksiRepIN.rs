@@ -3,7 +3,7 @@
    <description></description>
    <name>View_HapusTransaksiRepIN</name>
    <tag></tag>
-   <elementGuidId>6cb12f02-4673-48d3-b040-90bc45f8215a</elementGuidId>
+   <elementGuidId>06402071-4e3b-455d-8c88-6d3bc1260c97</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -171,6 +171,6 @@ Rp 1.000.000
    </webElementProperties>
    <locator>Automation Berulang IN FE
 Rp 1.000.000
-13 Jul 22</locator>
+26 Jul 22</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

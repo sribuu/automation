@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="39.67226">
+<testcase classname="Laporan Keuangan" name="Laporan Keuangan with 0 Trx" time="12.339786">
+<system-out><![CDATA[* I open default app........................................................passed
+* I should see 'Production/Laporan/Button_Laporan'..........................passed
+* I click 'Production/Laporan/Button_Laporan'...............................passed
+* I should see 'Production/Laporan/View_ReportKeuanganMu'...................passed
+* I should see 'Production/Laporan/View_DefaultZeroTrx'.....................passed
+* I should see 'Production/Laporan/View_DefaultZeroTrx1'....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Laporan Keuangan" name="Laporan Keuangan with Import 0 Transaksi" time="27.332474">
+<system-out><![CDATA[* I open default app........................................................passed
+* I should see 'Production/Laporan/Button_Laporan'..........................passed
+* I click 'Production/Laporan/Button_Laporan'...............................passed
+* I should see 'Production/Laporan/Button_Export'...........................passed
+* I click 'Production/Laporan/Button_Export'................................passed
+* I should see 'Production/Laporan/Button_PilihSumberKeuangan'..............passed
+* I click and hold 'Production/Laporan/Button_PilihSumberKeuangan'..........passed
+* I click 'Production/Laporan/View_SemuaDompet'.............................passed
+* I click and hold 'Production/Laporan/Button_Periode'......................passed
+* I click 'Production/Laporan/View_SebulanTerakhir'.........................passed
+* I should see 'Production/Laporan/Button_ExportSimpan'.....................passed
+* I click 'Production/Laporan/Button_ExportSimpan'..........................passed
+* I should see 'Production/Laporan/View_DataKeuanganTidakAda'...............passed
+* I should see 'Production/Laporan/View_DataKeuanganTidakAda2'..............passed
+* I should see 'Production/Laporan/Button_MengertiOK'.......................passed
+* I click 'Production/Laporan/Button_MengertiOK'............................passed
+* I press back..............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

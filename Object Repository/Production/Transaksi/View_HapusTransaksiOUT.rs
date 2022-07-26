@@ -3,7 +3,7 @@
    <description></description>
    <name>View_HapusTransaksiOUT</name>
    <tag></tag>
-   <elementGuidId>7c5872fa-9fb5-48e3-b8cc-bcc3a0c6ea17</elementGuidId>
+   <elementGuidId>4cbe4279-3dcf-4d85-a6fd-176ad897a7d0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -171,6 +171,6 @@
    </webElementProperties>
    <locator>Automation out FE
 - Rp 1.000.000
-13 Jul 22</locator>
+26 Jul 22</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

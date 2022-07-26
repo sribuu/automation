@@ -1,0 +1,349 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10729291600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Verify all the features on HomePage",
+        "description": "",
+        "id": "homepage;verify-all-the-features-on-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 170221000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \u0027Production/HomePage/Button_Beranda\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_Beranda",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 457806500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see \u0027Production/HomePage/View_ButtonChat\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_ButtonChat",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 573863700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \u0027Production/HomePage/Button_ClipChart\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_ClipChart",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 137044100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027Production/HomePage/View_Emas\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Emas",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 123175400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see \u0027Production/HomePage/View_Nama\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Nama",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 157159600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see \u0027Production/HomePage/View_Referral\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Referral",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 140660300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see \u0027Production/HomePage/View_TotalSaldo\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TotalSaldo",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 4003334700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 121065200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see \u0027Production/HomePage/Button_KelolaAnggaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_KelolaAnggaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 107860600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \u0027Production/HomePage/Text_SisaAngaaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Text_SisaAngaaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3988803500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 101719600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see \u0027Production/HomePage/View_Basic\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Basic",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 105421300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see \u0027Production/HomePage/View_HitungTujuan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_HitungTujuan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 110323900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see \u0027Production/HomePage/View_TantanganMenabung\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TantanganMenabung",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 121341300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see \u0027Production/HomePage/View_TK_Emas\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TK_Emas",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 130050700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see \u0027Production/HomePage/View_UndangTemanMu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_UndangTemanMu",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3985558000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I scroll to up",
+            "match": {
+              "location": "Script.I_scroll_to_up()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 3976109000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I scroll to up",
+            "match": {
+              "location": "Script.I_scroll_to_up()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PoisitiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/automation-fe/Include/features/HomePage.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.255023">
+<testcase classname="HomePage" name="Verify all the features on HomePage" time="29.255023">
+<system-out><![CDATA[* I open default app........................................................passed
+* I should see 'Production/HomePage/Button_Beranda'.........................passed
+* I should see 'Production/HomePage/View_ButtonChat'........................passed
+* I should see 'Production/HomePage/Button_ClipChart'.......................passed
+* I should see 'Production/HomePage/View_Emas'..............................passed
+* I should see 'Production/HomePage/View_Nama'..............................passed
+* I should see 'Production/HomePage/View_Referral'..........................passed
+* I should see 'Production/HomePage/View_TotalSaldo'........................passed
+* I swipe to bottom trx.....................................................passed
+* I should see 'Production/HomePage/Button_KelolaAnggaran'..................passed
+* I should see 'Production/HomePage/Text_SisaAngaaran'......................passed
+* I swipe to bottom trx.....................................................passed
+* I should see 'Production/HomePage/View_Basic'.............................passed
+* I should see 'Production/HomePage/View_HitungTujuan'......................passed
+* I should see 'Production/HomePage/View_TantanganMenabung'.................passed
+* I should see 'Production/HomePage/View_TK_Emas'...........................passed
+* I should see 'Production/HomePage/View_UndangTemanMu'.....................passed
+* I scroll to up............................................................passed
+* I scroll to up............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

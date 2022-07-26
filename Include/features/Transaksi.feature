@@ -229,7 +229,9 @@ Feature: HomePage
 	 
 	 	   @NegativeCase 
      Scenario: As user i want to searching transaction with invalid transaction
-   * I scroll to up
+   * I scroll to up trx 
+   * I should see 'Production/Transaksi/Search_Delete'
+   * I click 'Production/Transaksi/Search_Delete'
    * I should see 'Production/Transaksi/View_CariTransaksi'
    * I wait for 4 seconds
    * I click and hold 'Production/Transaksi/View_CariTransaksi'
@@ -237,11 +239,12 @@ Feature: HomePage
 	 * I type 'Tidak Ada' on 'Production/Transaksi/View_CariTransaksi'
 	 * I wait for 4 seconds
 	 * I hide keyboard
-	 * I should see 'Production/Transaksi/Transaksi_AutomationOUT'
+	 * I should not see 'Production/Transaksi/Transaksi_AutomationOUT'
 	 
 	 
 	 	   @PositiveCase 
      Scenario: As user i want to see the detail transaction
+   * I swipe to bottom
    * I should see 'Production/Transaksi/Transaksi_AutomationOUT'
    * I wait for 4 seconds
    * I click and hold 'Production/Transaksi/Transaksi_AutomationOUT'
@@ -272,7 +275,18 @@ Feature: HomePage
 	 
 	   @PositiveCase 
      Scenario: As user i want to see verify transaction berulang
+     * I should see 'Production/Transaksi/Button_TransaksiBerulang'
+     * I click 'Production/Transaksi/Button_TransaksiBerulang'
+     * I should see 'Production/Transaksi/Verify_AutomationBerulangIN'
+     * I should see 'Production/Transaksi/Verify_AutomationBerulangOUT'
      
-       @PositiveCase 
+     @PositiveCase 
      Scenario: As user i want check the pengeluaran dan pendapatan value
+      * I should see 'Production/Transaksi/View_Pendapatan_Field'
+      * I should see 'Production/Transaksi/View_Pengeluaran_Field'
+      * I should see 'Production/Transaksi/View_2Jt_Field_In'
+      * I should see 'Production/Transaksi/View_2Jt_Field_Out'
+      * I should see 'Production/Transaksi/View_SisaUangKamu'
+      * I should see 'Production/Transaksi/Sisa_Uang_Kamu_0'
+     
 	 

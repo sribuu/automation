@@ -3,7 +3,7 @@
    <description></description>
    <name>View_HapusTransaksiIN</name>
    <tag></tag>
-   <elementGuidId>021e3465-a998-4d3a-b95b-3a5a6bff5a7b</elementGuidId>
+   <elementGuidId>036338ce-2376-4ada-b40f-82ec37af58fa</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -171,6 +171,6 @@ Rp 1.000.000
    </webElementProperties>
    <locator>Automation in FE
 Rp 1.000.000
-13 Jul 22</locator>
+26 Jul 22</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

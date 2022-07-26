@@ -1,0 +1,370 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "6c14101d-958c-4789-853d-6f7b640696f7",
+        "line": 3,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10729291600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e5f08405-abe0-4c7a-b9f5-c7461b373115"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "6c14101d-958c-4789-853d-6f7b640696f7",
+        "line": 8,
+        "name": "Verify all the features on HomePage",
+        "description": "",
+        "id": "homepage;verify-all-the-features-on-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 170221000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \u0027Production/HomePage/Button_Beranda\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_Beranda",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7fc38d0e-ee7c-489a-b46b-0277492c5eaa"
+          },
+          {
+            "result": {
+              "duration": 457806500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see \u0027Production/HomePage/View_ButtonChat\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_ButtonChat",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c19f50fc-f7fb-40ed-bc5b-6d93c0298412"
+          },
+          {
+            "result": {
+              "duration": 573863700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \u0027Production/HomePage/Button_ClipChart\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_ClipChart",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "efc9dd0c-9778-4474-b8a2-229184c91ebb"
+          },
+          {
+            "result": {
+              "duration": 137044100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027Production/HomePage/View_Emas\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Emas",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1d740803-23f0-4802-ba4e-1fefb4930ea9"
+          },
+          {
+            "result": {
+              "duration": 123175400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see \u0027Production/HomePage/View_Nama\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Nama",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "38fbc5db-2904-49c0-9693-a96e815eb384"
+          },
+          {
+            "result": {
+              "duration": 157159600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see \u0027Production/HomePage/View_Referral\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Referral",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8fbe4478-d2b0-4269-90bc-b188eb293264"
+          },
+          {
+            "result": {
+              "duration": 140660300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see \u0027Production/HomePage/View_TotalSaldo\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TotalSaldo",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "07d14b45-a5c3-479c-a0cc-fe3b0854bb5e"
+          },
+          {
+            "result": {
+              "duration": 4003334700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "46382ad6-d2a1-4959-b705-6bdba19a98fc"
+          },
+          {
+            "result": {
+              "duration": 121065200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see \u0027Production/HomePage/Button_KelolaAnggaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_KelolaAnggaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "11df6f50-ae81-458d-a38d-46eb497bbfa3"
+          },
+          {
+            "result": {
+              "duration": 107860600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \u0027Production/HomePage/Text_SisaAngaaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Text_SisaAngaaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "87d51455-66ab-42e1-b05f-83f7c061bd4d"
+          },
+          {
+            "result": {
+              "duration": 3988803500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5c851126-b730-4491-b15d-f853a6149e75"
+          },
+          {
+            "result": {
+              "duration": 101719600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see \u0027Production/HomePage/View_Basic\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Basic",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d324abe8-e34e-49fa-aeae-be4f3131bd7a"
+          },
+          {
+            "result": {
+              "duration": 105421300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see \u0027Production/HomePage/View_HitungTujuan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_HitungTujuan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e7524705-8c09-41cb-a4de-75488458fd43"
+          },
+          {
+            "result": {
+              "duration": 110323900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see \u0027Production/HomePage/View_TantanganMenabung\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TantanganMenabung",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8308d040-d26d-46c9-b865-19c073aa8686"
+          },
+          {
+            "result": {
+              "duration": 121341300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see \u0027Production/HomePage/View_TK_Emas\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TK_Emas",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "056bfbe4-b500-40dc-bbc4-33dd4c606e88"
+          },
+          {
+            "result": {
+              "duration": 130050700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see \u0027Production/HomePage/View_UndangTemanMu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_UndangTemanMu",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c61cb502-c3ec-4f79-b9d7-f00b794a6f5d"
+          },
+          {
+            "result": {
+              "duration": 3985558000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I scroll to up",
+            "match": {
+              "location": "Script.I_scroll_to_up()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "96f00c7a-eb7b-474a-8efc-68ec96b42eee"
+          },
+          {
+            "result": {
+              "duration": 3976109000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I scroll to up",
+            "match": {
+              "location": "Script.I_scroll_to_up()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "37cc3c68-d2d1-4049-acc9-96117dc9f9f8"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PoisitiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/automation-fe/Include/features/HomePage.feature",
+    "tags": []
+  }
+]

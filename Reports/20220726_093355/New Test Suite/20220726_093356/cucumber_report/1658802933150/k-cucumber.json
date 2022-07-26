@@ -1,0 +1,484 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "9451df44-b38e-4b45-be25-06660aa3085c",
+        "line": 3,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10777276900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "271eadb2-dcaa-4c47-bd1a-2020cd7b2f3a"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9451df44-b38e-4b45-be25-06660aa3085c",
+        "line": 7,
+        "name": "Laporan Keuangan with 0 Trx",
+        "description": "",
+        "id": "laporan-keuangan;laporan-keuangan-with-0-trx",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 133656100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see \u0027Production/Laporan/Button_Laporan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_Laporan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "19af1155-1b86-4f0e-a40c-7b8d74d2abd3"
+          },
+          {
+            "result": {
+              "duration": 250059800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click \u0027Production/Laporan/Button_Laporan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_Laporan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d15dc836-dff2-4507-8b9e-95218ee9c5a0"
+          },
+          {
+            "result": {
+              "duration": 973483200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see \u0027Production/Laporan/View_ReportKeuanganMu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/View_ReportKeuanganMu",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "46d32488-9c9b-4ec9-abfd-950554574bb4"
+          },
+          {
+            "result": {
+              "duration": 105570500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \u0027Production/Laporan/View_DefaultZeroTrx\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/View_DefaultZeroTrx",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4ec6a631-f6fd-4b17-a3bc-3881c7b5441f"
+          },
+          {
+            "result": {
+              "duration": 94138300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027Production/Laporan/View_DefaultZeroTrx1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/View_DefaultZeroTrx1",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "173c021d-a942-4cdf-8063-ad290ec20784"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b6801e61-1e05-4e76-ad7a-006d5c119a5b",
+        "line": 3,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10817314700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b93a20e9-da60-48d9-8fa7-d6efbe46378b"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "b6801e61-1e05-4e76-ad7a-006d5c119a5b",
+        "line": 15,
+        "name": "Laporan Keuangan with Import 0 Transaksi",
+        "description": "",
+        "id": "laporan-keuangan;laporan-keuangan-with-import-0-transaksi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119824500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see \u0027Production/Laporan/Button_Laporan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_Laporan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cd3f31f6-6f47-4c51-af8a-e086c36e9929"
+          },
+          {
+            "result": {
+              "duration": 774560600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click \u0027Production/Laporan/Button_Laporan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_Laporan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e5fded9a-e0b9-43c2-9385-9e0fd87b97ac"
+          },
+          {
+            "result": {
+              "duration": 134197900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \u0027Production/Laporan/Button_Export\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_Export",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "84cc97a4-9825-41c9-898c-8258af07e431"
+          },
+          {
+            "result": {
+              "duration": 250083500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click \u0027Production/Laporan/Button_Export\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_Export",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "be9cf2fc-a204-48df-8d61-b0a08bbff98c"
+          },
+          {
+            "result": {
+              "duration": 956541500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see \u0027Production/Laporan/Button_PilihSumberKeuangan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_PilihSumberKeuangan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "532e7ae5-0770-472f-b7c9-74834b1de602"
+          },
+          {
+            "result": {
+              "duration": 4649155800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click and hold \u0027Production/Laporan/Button_PilihSumberKeuangan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_PilihSumberKeuangan",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "32116d91-ad58-49c9-9ef8-b049a9dffd54"
+          },
+          {
+            "result": {
+              "duration": 1068750000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click \u0027Production/Laporan/View_SemuaDompet\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/View_SemuaDompet",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8d1cccae-285c-431e-83a9-bffda9ba42f7"
+          },
+          {
+            "result": {
+              "duration": 4677374200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click and hold \u0027Production/Laporan/Button_Periode\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_Periode",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9f0f8d1e-3394-4f03-9df2-2a96cc68195b"
+          },
+          {
+            "result": {
+              "duration": 1055050800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click \u0027Production/Laporan/View_SebulanTerakhir\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/View_SebulanTerakhir",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d8878978-5e99-42f2-a257-8a3e000788f1"
+          },
+          {
+            "result": {
+              "duration": 116506500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see \u0027Production/Laporan/Button_ExportSimpan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_ExportSimpan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7c6e26d0-2dc6-4366-a6c0-307e39a4ce2d"
+          },
+          {
+            "result": {
+              "duration": 959307300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click \u0027Production/Laporan/Button_ExportSimpan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_ExportSimpan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a581cbce-922f-4f60-af52-6cee80704575"
+          },
+          {
+            "result": {
+              "duration": 130932300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see \u0027Production/Laporan/View_DataKeuanganTidakAda\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/View_DataKeuanganTidakAda",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4c113098-71cb-41da-b157-e5823ebc5a59"
+          },
+          {
+            "result": {
+              "duration": 107953100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see \u0027Production/Laporan/View_DataKeuanganTidakAda2\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/View_DataKeuanganTidakAda2",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "313fef9b-229b-45e1-99f6-bc2866c6f248"
+          },
+          {
+            "result": {
+              "duration": 412131100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see \u0027Production/Laporan/Button_MengertiOK\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_MengertiOK",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f088140d-39e2-417d-a818-11ccee2ae4ba"
+          },
+          {
+            "result": {
+              "duration": 967676200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click \u0027Production/Laporan/Button_MengertiOK\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Laporan/Button_MengertiOK",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0395ae1d-5340-4b6c-89b3-4d76a4817aac"
+          },
+          {
+            "result": {
+              "duration": 123291400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I press back",
+            "match": {
+              "location": "Script.I_press_back()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4331139a-c142-46ae-9306-9fc85edec95e"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      }
+    ],
+    "name": "Laporan Keuangan",
+    "description": "",
+    "id": "laporan-keuangan",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/automation-fe/Include/features/LaporanWith0Trx.feature",
+    "tags": []
+  }
+]

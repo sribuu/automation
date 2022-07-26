@@ -1,0 +1,4778 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "bf5ac02e-a80f-425c-8196-ec15544ad614",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11003743900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "dd311f24-fb33-4fa8-99d5-2125ef7efed9"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "bf5ac02e-a80f-425c-8196-ec15544ad614",
+        "line": 7,
+        "name": "As user i want to see transaction page",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-see-transaction-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 201951100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I tap app",
+            "match": {
+              "location": "Script.I_tap_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "597c0fb5-7344-4299-b93f-d159e15a90f7"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "44bc6058-b897-42a1-9b4a-647f2a307e0e",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10841435600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "90c17cf7-5b98-4367-8cc6-a90e90e3c066"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "44bc6058-b897-42a1-9b4a-647f2a307e0e",
+        "line": 11,
+        "name": "As user i want to see transaction page",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-see-transaction-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 120537000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027Production/HomePage/Button_Transaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_Transaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "680252ed-cc5a-4b4a-ac8f-51133d1c9843"
+          },
+          {
+            "result": {
+              "duration": 4010771500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2cb8855a-34b3-4f9d-b04f-7799a187453c"
+          },
+          {
+            "result": {
+              "duration": 231133800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I tap app",
+            "match": {
+              "location": "Script.I_tap_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "170404c6-480a-4407-92e5-af1818a83420"
+          },
+          {
+            "result": {
+              "duration": 851555000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click \u0027Production/HomePage/Button_Transaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_Transaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0b61c230-8dbd-4050-8f79-09ef785ec379"
+          },
+          {
+            "result": {
+              "duration": 4009780200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "255832ea-ad46-4781-bbc7-11616e725dc7"
+          },
+          {
+            "result": {
+              "duration": 727066300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I tap app",
+            "match": {
+              "location": "Script.I_tap_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7ff524a8-6834-4f6b-a76b-1254a4f97ee1"
+          },
+          {
+            "result": {
+              "duration": 216983400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I tap app",
+            "match": {
+              "location": "Script.I_tap_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "2b27ba37-e413-4c0b-b24c-9e66302f7dd6"
+          },
+          {
+            "result": {
+              "duration": 120345200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see \u0027Production/Transaksi/Text_Transaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_Transaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "47164889-8494-40ed-9455-2c517e4f7d50"
+          },
+          {
+            "result": {
+              "duration": 141262700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see \u0027Production/Transaksi/Text_TanpaTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_TanpaTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "60704e3d-0c35-4212-ab70-4b2f1740e605"
+          },
+          {
+            "result": {
+              "duration": 445826100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see \u0027Production/Transaksi/Button_CatatTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_CatatTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7944032b-8316-4936-8b18-f8664134c650"
+          },
+          {
+            "result": {
+              "duration": 2004428900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b7360e03-2cbc-499a-bf58-5494e095a6cd"
+          },
+          {
+            "result": {
+              "duration": 1201679900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click \u0027Production/Transaksi/Button_CatatTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_CatatTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c0fb580c-ae44-4062-af2b-73923372ef0b"
+          },
+          {
+            "result": {
+              "duration": 592557700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I press back",
+            "match": {
+              "location": "Script.I_press_back()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3243f66c-d751-471d-b799-daf9bcd6a140"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "444603e5-fe3b-414d-b95a-1400c54bad4a",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10795444800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7ee74e1e-0135-4e39-ac84-ac74ae94f7a3"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "444603e5-fe3b-414d-b95a-1400c54bad4a",
+        "line": 28,
+        "name": "As user i want to make first transaction out",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-make-first-transaction-out",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152517500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see \u0027Production/HomePage/Button_Transaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_Transaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cb5892c4-3e5f-4988-bafa-a23b1da0e46c"
+          },
+          {
+            "result": {
+              "duration": 4013427500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3a18bf8f-e8bf-4458-9119-0dfefeb4e582"
+          },
+          {
+            "result": {
+              "duration": 759548100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click \u0027Production/HomePage/Button_Transaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_Transaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3eefd41d-0a12-446e-b2ed-c93f2a9d6b35"
+          },
+          {
+            "result": {
+              "duration": 4009889900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e1327d4e-a488-404d-88e6-4253ede67974"
+          },
+          {
+            "result": {
+              "duration": 218409100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I tap app",
+            "match": {
+              "location": "Script.I_tap_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "04796b5e-8be5-4777-b5e6-76c72543495e"
+          },
+          {
+            "result": {
+              "duration": 202097100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I tap app",
+            "match": {
+              "location": "Script.I_tap_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e9f68d70-5a89-41b8-b8c3-f98f666573d4"
+          },
+          {
+            "result": {
+              "duration": 118748400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should see \u0027Production/Transaksi/Text_Transaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_Transaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0f9d845f-e15f-4b1a-aa45-4c9831a0f174"
+          },
+          {
+            "result": {
+              "duration": 124866400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should see \u0027Production/Transaksi/Text_TanpaTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_TanpaTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "dd7e69c7-7249-46ae-b076-b8bf4aeec43a"
+          },
+          {
+            "result": {
+              "duration": 447494600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should see \u0027Production/Transaksi/Button_CatatTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_CatatTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a9aae80f-697e-47c5-9b02-8361fd362c85"
+          },
+          {
+            "result": {
+              "duration": 2004586500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0ccb8cf1-77e7-4f86-87e6-024495fe69d3"
+          },
+          {
+            "result": {
+              "duration": 1247943900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click \u0027Production/Transaksi/Button_CatatTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_CatatTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "35ec3dad-520f-4820-9ce3-eec3aa90bdd6"
+          },
+          {
+            "result": {
+              "duration": 1765897600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I should see \u0027Production/Transaksi/Button_Pengeluaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pengeluaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "513eb8c8-849b-4c75-aede-b14fc1f53a3b"
+          },
+          {
+            "result": {
+              "duration": 300304500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click \u0027Production/Transaksi/Button_Pengeluaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pengeluaran",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ad35c770-af00-4d78-b7bd-d01976419bcd"
+          },
+          {
+            "result": {
+              "duration": 307072900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click \u0027Production/Transaksi/Button_Nominal\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Nominal",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "585e3825-cc04-4fc7-b851-f39de3322ef8"
+          },
+          {
+            "result": {
+              "duration": 1611240700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_1",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d8c13c51-5b33-444a-8669-bdbb86ed3cc8"
+          },
+          {
+            "result": {
+              "duration": 809101200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0b6f25f9-3086-4b47-8180-d941dfc29fad"
+          },
+          {
+            "result": {
+              "duration": 799983800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4d734e03-e81e-4d0f-afb1-14be107180d0"
+          },
+          {
+            "result": {
+              "duration": 1177108200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click \u0027Production/Transaksi/Button_Simpan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Simpan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cf10792d-eaab-4b96-acc9-4a87751b39b2"
+          },
+          {
+            "result": {
+              "duration": 306397700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click \u0027Production/Transaksi/Button_Pilih_Kategori\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pilih_Kategori",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6ea47b55-11f0-4ea2-858d-cca27e14cd2b"
+          },
+          {
+            "result": {
+              "duration": 2102293500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click \u0027Production/Transaksi/Kategori_Edukasi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Kategori_Edukasi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d7b22c3b-d1b5-4f95-b2ea-6e700a8b4f2c"
+          },
+          {
+            "result": {
+              "duration": 3976200900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ab1487dc-95eb-492b-b946-bc236b14cc5d"
+          },
+          {
+            "result": {
+              "duration": 326887500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click \u0027Production/Transaksi/Button_Deskipsi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Deskipsi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "31d8de20-486e-4899-a27c-cd3200ff4d34"
+          },
+          {
+            "result": {
+              "duration": 830930600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I type \u0027Automation out FE\u0027 on \u0027Production/Transaksi/Button_Deskipsi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation out FE",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Transaksi/Button_Deskipsi",
+                  "offset": 31
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ef06fbb2-5fc7-4fd3-a25e-16ce72e9f44c"
+          },
+          {
+            "result": {
+              "duration": 482993200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1a4b356c-72ef-4b5c-bf61-4bdef4f481b4"
+          },
+          {
+            "result": {
+              "duration": 1215243200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click \u0027Production/Transaksi/Button_TambahTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TambahTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ee6c02cc-7dd8-4c7e-b0aa-f0d0171ef729"
+          },
+          {
+            "result": {
+              "duration": 4012773200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "39c1089f-858d-4005-a94a-bfe42c8c32bb"
+          },
+          {
+            "result": {
+              "duration": 103662300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I should see \u0027Production/Transaksi/Text_CieBerhasilTransaksiPertama\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_CieBerhasilTransaksiPertama",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f52d899b-3f1a-4319-83e4-afa3a5304f58"
+          },
+          {
+            "result": {
+              "duration": 1397985100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click \u0027Production/Transaksi/Button_OkLanjut\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_OkLanjut",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "73b90ec8-9d4f-47ef-ac56-33dca7e61cfe"
+          },
+          {
+            "result": {
+              "duration": 4016438400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8961a8a4-a553-4a2e-8a57-504be6f6c30b"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a4b53311-5d50-4b05-83d4-d43d4d9bd157",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10928985800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b1f5dff3-0d5e-4564-bc2f-34ba58c6309a"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "a4b53311-5d50-4b05-83d4-d43d4d9bd157",
+        "line": 64,
+        "name": "As user i want to make transaction in",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-make-transaction-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 417322100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I should see \u0027Production/Transaksi/Button_PlusTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PlusTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a9dd2fb8-f61f-41fd-b910-d16e8f61fc1d"
+          },
+          {
+            "result": {
+              "duration": 4005108500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0b031f89-72aa-42b5-97ed-cd1c4641a17a"
+          },
+          {
+            "result": {
+              "duration": 284805000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click \u0027Production/Transaksi/Button_PlusTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PlusTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d595cbf8-7f69-4b7e-9805-94c3b187bd04"
+          },
+          {
+            "result": {
+              "duration": 4005674400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8168a573-8748-49da-bfa6-43f362a856ac"
+          },
+          {
+            "result": {
+              "duration": 120267000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should see \u0027Production/Transaksi/Button_Pendapatan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pendapatan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "470d184a-0a91-473e-bcf4-e73e8c9f2988"
+          },
+          {
+            "result": {
+              "duration": 4016011800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "76cc5dde-161f-4229-8084-a4a420e48d9c"
+          },
+          {
+            "result": {
+              "duration": 4661135500,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I click and hold \u0027Production/Transaksi/Button_Pendapatan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pendapatan",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "35df92d6-9037-4ada-968d-8c843cd86be8"
+          },
+          {
+            "result": {
+              "duration": 335939500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click \u0027Production/Transaksi/Button_Nominal\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Nominal",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f79b8448-4993-4331-bdb8-2a7c6f97d57d"
+          },
+          {
+            "result": {
+              "duration": 1610827900,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_1",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f857ea05-3419-4bab-afe7-f47802f75b22"
+          },
+          {
+            "result": {
+              "duration": 766997100,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "10d41b6d-04b3-49d6-acd7-05893b1c25c8"
+          },
+          {
+            "result": {
+              "duration": 765576200,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "596dd335-25a8-42c7-9214-a0d1b4e62822"
+          },
+          {
+            "result": {
+              "duration": 1190987500,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I click \u0027Production/Transaksi/Button_Simpan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Simpan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "915f5b6c-ecc7-4307-b6f8-756829543c66"
+          },
+          {
+            "result": {
+              "duration": 311466100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click \u0027Production/Transaksi/Button_Pilih_Kategori\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pilih_Kategori",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ee864fdc-95eb-4dd7-8df3-c1f9b0ee03e5"
+          },
+          {
+            "result": {
+              "duration": 1007313800,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I click \u0027Production/Transaksi/Kategori_Gaji\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Kategori_Gaji",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6d2b5864-df63-4153-ab29-6068bfa069c3"
+          },
+          {
+            "result": {
+              "duration": 4009042600,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "be9d04e2-d16c-4603-a97c-5df7d76f3f69"
+          },
+          {
+            "result": {
+              "duration": 296372300,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I click \u0027Production/Transaksi/Button_Deskipsi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Deskipsi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cee629e6-b65e-4be9-90ca-3dd00ca140d2"
+          },
+          {
+            "result": {
+              "duration": 763462600,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I type \u0027Automation in FE\u0027 on \u0027Production/Transaksi/Button_Deskipsi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation in FE",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Transaksi/Button_Deskipsi",
+                  "offset": 30
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0df40741-acce-4154-af9a-8404d1735f09"
+          },
+          {
+            "result": {
+              "duration": 476512600,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f81dfe1d-0238-4b06-94b4-146b4a08ad11"
+          },
+          {
+            "result": {
+              "duration": 1171545200,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I click \u0027Production/Transaksi/Button_TambahTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TambahTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bda0c08e-b5a5-4bd1-94d3-0ba9a9d41798"
+          },
+          {
+            "result": {
+              "duration": 4010429300,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e480877a-edd6-49ba-a15f-31ca68c7d756"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "de188e81-2ac4-4bb2-9ff5-372d37c694f2",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11029506900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "149ba1b5-da58-4fc7-856b-301e2233c970"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "de188e81-2ac4-4bb2-9ff5-372d37c694f2",
+        "line": 88,
+        "name": "As user i want to make transaction IN repeatly",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-make-transaction-in-repeatly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 432472000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I should see \u0027Production/Transaksi/Button_PlusTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PlusTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "73c38f80-1f83-4d16-b575-44e1047b11ca"
+          },
+          {
+            "result": {
+              "duration": 4005235400,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ce71dab5-f04a-448d-ab4f-ea025593bb27"
+          },
+          {
+            "result": {
+              "duration": 1209327600,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I click \u0027Production/Transaksi/Button_PlusTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PlusTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ddbca71e-7292-4e25-a7d2-c14dbabe06b5"
+          },
+          {
+            "result": {
+              "duration": 4012163900,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ddf7cabd-03c1-413e-89cd-e57a85b88099"
+          },
+          {
+            "result": {
+              "duration": 102333400,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I should see \u0027Production/Transaksi/Button_Pendapatan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pendapatan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3e15893c-1900-408b-9641-e8330da64b1e"
+          },
+          {
+            "result": {
+              "duration": 4002652700,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "04ee4c6e-d046-4074-bee3-d88f5536570b"
+          },
+          {
+            "result": {
+              "duration": 4641127700,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I click and hold \u0027Production/Transaksi/Button_Pendapatan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pendapatan",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d56933f3-bc7b-4f46-932b-835356949051"
+          },
+          {
+            "result": {
+              "duration": 311323000,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I click \u0027Production/Transaksi/Button_Nominal\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Nominal",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6ebce824-3822-493c-a5e6-d9392706d4f5"
+          },
+          {
+            "result": {
+              "duration": 1635680300,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_1",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1a3c3394-3166-4248-ae52-29b20a1f0d0c"
+          },
+          {
+            "result": {
+              "duration": 767442200,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0e39350e-d533-4cf7-a6ef-069ad4b10b3c"
+          },
+          {
+            "result": {
+              "duration": 778246000,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "081628c6-7233-42f0-8f1f-66d1b6a31242"
+          },
+          {
+            "result": {
+              "duration": 1171907600,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "I click \u0027Production/Transaksi/Button_Simpan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Simpan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6ef1a4d7-b7c5-4ce3-89dc-dcc0aa639c4c"
+          },
+          {
+            "result": {
+              "duration": 289848300,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "I click \u0027Production/Transaksi/Button_Pilih_Kategori\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pilih_Kategori",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "32013064-d5ae-419f-bbdd-2819ef7f498c"
+          },
+          {
+            "result": {
+              "duration": 1605362800,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "I click \u0027Production/Transaksi/Kategori_Gaji\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Kategori_Gaji",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5b62b38f-872c-4601-9865-28f00d82217d"
+          },
+          {
+            "result": {
+              "duration": 4026493400,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5ce25d92-d9aa-4a85-9757-c153f1e62a53"
+          },
+          {
+            "result": {
+              "duration": 808168900,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I click \u0027Production/Transaksi/CheckBox_Berulang\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/CheckBox_Berulang",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "604a47c7-1e86-4902-8f29-03a8713d95ad"
+          },
+          {
+            "result": {
+              "duration": 3947135000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ff35d6f3-6035-49d3-9feb-5a3f2679e5f8"
+          },
+          {
+            "result": {
+              "duration": 270594300,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "I click \u0027Production/Transaksi/Button_PilihPeriode\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PilihPeriode",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d87b3c6a-be57-435a-a75d-d0178caa6db1"
+          },
+          {
+            "result": {
+              "duration": 1757767900,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "I click \u0027Production/Transaksi/Button_BerulangTiapHari\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_BerulangTiapHari",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7cfaf5ab-994a-4eeb-9016-4e43e855de25"
+          },
+          {
+            "result": {
+              "duration": 302780000,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "I click \u0027Production/Transaksi/Button_PilihWaktu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PilihWaktu",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ef0b935c-f204-4bc4-9a4f-3bcc0a70e4b7"
+          },
+          {
+            "result": {
+              "duration": 925280100,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "I click \u0027Production/Transaksi/Button_Selamanya\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Selamanya",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7add4efc-216e-4a50-86d3-7eba806649ac"
+          },
+          {
+            "result": {
+              "duration": 1065597100,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "I click \u0027Production/Transaksi/Button_Deskipsi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Deskipsi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d6d0d8ab-673b-46ec-a62b-31d2051d1ada"
+          },
+          {
+            "result": {
+              "duration": 741954300,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "I type \u0027Automation Berulang IN FE\u0027 on \u0027Production/Transaksi/Button_Deskipsi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Berulang IN FE",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Transaksi/Button_Deskipsi",
+                  "offset": 39
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f22ec4d3-3732-455c-89b9-977718101a44"
+          },
+          {
+            "result": {
+              "duration": 571244200,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5e93772d-5dc8-43e4-9ec8-b9915d7142eb"
+          },
+          {
+            "result": {
+              "duration": 641576700,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I click \u0027Production/Transaksi/Button_TambahTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TambahTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1a7b58d6-758f-450d-a7bc-d0bcef16ae5d"
+          },
+          {
+            "result": {
+              "duration": 4016262700,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1c466d56-58af-4390-892b-9bcad03ee188"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "ea99475a-0a61-421f-9cfb-f25418053ab5",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11309964700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e5f1163f-da88-4873-9e81-e550901463c3"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "ea99475a-0a61-421f-9cfb-f25418053ab5",
+        "line": 118,
+        "name": "As user i want to make transaction OUT repeatly",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-make-transaction-out-repeatly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 445664100,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "I should see \u0027Production/Transaksi/Button_PlusTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PlusTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fd18590b-9cfb-4d41-9f27-e7d4ea5fe436"
+          },
+          {
+            "result": {
+              "duration": 4013870800,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "32fbc8be-b645-4f77-b915-639c4a875137"
+          },
+          {
+            "result": {
+              "duration": 285474300,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "I click \u0027Production/Transaksi/Button_PlusTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PlusTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b745f142-8fc2-4c37-80ac-3656b8ca1621"
+          },
+          {
+            "result": {
+              "duration": 4004515300,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "fecb2b91-1972-4600-a390-8d3745180aa2"
+          },
+          {
+            "result": {
+              "duration": 120447300,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "I should see \u0027Production/Transaksi/Button_Pengeluaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pengeluaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "74a431be-3cb9-4abc-a104-f662f633f64a"
+          },
+          {
+            "result": {
+              "duration": 4002827000,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e056a1ba-57de-4bf9-9397-78c9da260eca"
+          },
+          {
+            "result": {
+              "duration": 4667327800,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "I click and hold \u0027Production/Transaksi/Button_Pengeluaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pengeluaran",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a7d65fdc-2931-4628-92c6-0eaa52eb0c9d"
+          },
+          {
+            "result": {
+              "duration": 307603500,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "I click \u0027Production/Transaksi/Button_Nominal\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Nominal",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "456d3eb1-fcf3-40d8-bd17-5c8bc2ba5e3d"
+          },
+          {
+            "result": {
+              "duration": 1627538200,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_1",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b1b5645d-cbfd-4357-8553-6d5cee219734"
+          },
+          {
+            "result": {
+              "duration": 791445500,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9cd544ef-17b6-4858-80ef-a376aa74af03"
+          },
+          {
+            "result": {
+              "duration": 769888800,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3a6f8e56-dbc3-4332-807e-b6642270ea02"
+          },
+          {
+            "result": {
+              "duration": 259362000,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "I click \u0027Production/Transaksi/Button_Simpan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Simpan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b69967c2-a33f-4516-a596-2436fc458de7"
+          },
+          {
+            "result": {
+              "duration": 1150841500,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "I click \u0027Production/Transaksi/Button_Pilih_Kategori\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Pilih_Kategori",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ffa1fb11-8c1b-4c31-a64a-42a847c5dbc8"
+          },
+          {
+            "result": {
+              "duration": 2196649000,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "I click \u0027Production/Transaksi/Kategori_Edukasi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Kategori_Edukasi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7ed9d05e-f142-4bfe-adb3-1d73c93085bf"
+          },
+          {
+            "result": {
+              "duration": 3959478700,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "35d9b1a8-32d8-405d-9608-039b7bc93a36"
+          },
+          {
+            "result": {
+              "duration": 841387000,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "I click \u0027Production/Transaksi/CheckBox_Berulang\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/CheckBox_Berulang",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7e43cb5d-fdb1-4dab-8cff-ff773cec50aa"
+          },
+          {
+            "result": {
+              "duration": 3987757000,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "94b5772b-5469-4262-b2b5-0b4b31ff8e2b"
+          },
+          {
+            "result": {
+              "duration": 251796800,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "I click \u0027Production/Transaksi/Button_PilihPeriode\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PilihPeriode",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "8fa7f419-e2fa-4e18-b612-906750d30cbc"
+          },
+          {
+            "result": {
+              "duration": 1792857100,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "I click \u0027Production/Transaksi/Button_BerulangTiapHari\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_BerulangTiapHari",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cce86dcb-62cb-4d9c-b1ec-2be308b3e0da"
+          },
+          {
+            "result": {
+              "duration": 249705100,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "I click \u0027Production/Transaksi/Button_PilihWaktu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PilihWaktu",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ccfeea89-590a-44a2-a6c3-c231d28f38db"
+          },
+          {
+            "result": {
+              "duration": 1736416300,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "I click \u0027Production/Transaksi/Button_Selamanya\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Selamanya",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "754a03db-5c1b-4c67-8c27-645bd767b404"
+          },
+          {
+            "result": {
+              "duration": 291727400,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "I click \u0027Production/Transaksi/Button_Deskipsi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Deskipsi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ba62e15d-6eec-4c08-90d0-9868ec5430bc"
+          },
+          {
+            "result": {
+              "duration": 756485100,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "I type \u0027Automation Berulang OUT FE\u0027 on \u0027Production/Transaksi/Button_Deskipsi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Berulang OUT FE",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Transaksi/Button_Deskipsi",
+                  "offset": 40
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4e756686-8626-46bb-8c7a-d370e884e975"
+          },
+          {
+            "result": {
+              "duration": 540742600,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "89fbd836-f00a-4115-93a8-34bd33ec9a4f"
+          },
+          {
+            "result": {
+              "duration": 592611300,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "I click \u0027Production/Transaksi/Button_TambahTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TambahTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4821c410-124a-4e9a-8c8c-04ee1bc4da90"
+          },
+          {
+            "result": {
+              "duration": 4006415100,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ec78960d-6c17-48a0-a3e6-d06065ba7b24"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "fe46102c-0fc2-4325-8cc4-0b0e71e2db5f",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11040383200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "166cc9cc-579f-465d-9693-1bb9b5b3d904"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "fe46102c-0fc2-4325-8cc4-0b0e71e2db5f",
+        "line": 148,
+        "name": "As user i want to make tabungan tujuan keuanganmu",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-make-tabungan-tujuan-keuanganmu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 430653600,
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "I should see \u0027Production/Transaksi/Button_PlusTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PlusTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "89db94f8-5bdc-41d5-a9e1-b3a37e87e72b"
+          },
+          {
+            "result": {
+              "duration": 4007929000,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c518401d-b02c-4993-8e02-4726f7eb5e9e"
+          },
+          {
+            "result": {
+              "duration": 330391100,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "I click \u0027Production/Transaksi/Button_PlusTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PlusTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "16e6e773-798b-4dd8-b681-5241a9d46251"
+          },
+          {
+            "result": {
+              "duration": 4009625500,
+              "status": "passed"
+            },
+            "line": 152,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "91c905e4-f93a-413a-a6c9-2aa1746fda10"
+          },
+          {
+            "result": {
+              "duration": 118808500,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "I should see \u0027Production/Transaksi/Button_Tabungan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Tabungan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b8521e4b-0056-4a86-952f-98df0886efd4"
+          },
+          {
+            "result": {
+              "duration": 4002331200,
+              "status": "passed"
+            },
+            "line": 154,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6764e357-45be-49b6-83ac-e1c782a33097"
+          },
+          {
+            "result": {
+              "duration": 4651362100,
+              "status": "passed"
+            },
+            "line": 155,
+            "name": "I click and hold \u0027Production/Transaksi/Button_Tabungan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Tabungan",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f6d42456-f96d-45ee-97fd-15320cf663b0"
+          },
+          {
+            "result": {
+              "duration": 253534700,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "I click \u0027Production/Transaksi/Button_PilihTabungan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_PilihTabungan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b2e34e37-7735-464d-b953-b4d2cd551cf9"
+          },
+          {
+            "result": {
+              "duration": 1787404200,
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "I click \u0027Production/Transaksi/Button_TujuanKeuanganMu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TujuanKeuanganMu",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ff822d16-c812-4f24-8695-58a1da3154dd"
+          },
+          {
+            "result": {
+              "duration": 4008925100,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "615c64c9-fe60-4682-a8dc-b99424e02d0c"
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Production/Transaksi/Button_TabunganLainnya not found\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$1.call(Unknown Source)\r\n\tat Script.I_click(Script.groovy:94)\r\n\tat ✽.I click \u0027Production/Transaksi/Button_TabunganLainnya\u0027(C:/Users/MSI/git/automation-fe/Include/features/Transaksi.feature:159)\r\n",
+              "duration": 10980094100,
+              "status": "failed"
+            },
+            "line": 159,
+            "name": "I click \u0027Production/Transaksi/Button_TabunganLainnya\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TabunganLainnya",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ca9e2548-592b-48e4-8dc3-88554c9c41f4"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 160,
+            "name": "I click \u0027Production/Transaksi/Button_NominalTabungan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_NominalTabungan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f65173be-6e31-41b8-872f-f9907e700d2b"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 161,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_1\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_1",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "94d7d268-fb75-47bc-ad37-ac1221925d0b"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 162,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cfa630f6-8c74-49ee-a4d2-974b01932041"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 163,
+            "name": "I click \u0027Production/Transaksi/Button_Angka_000\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Angka_000",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "becef343-00f2-445f-b77f-fab5eba5f6e4"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 164,
+            "name": "I click \u0027Production/Transaksi/Button_Simpan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Simpan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5a722ed8-18bf-4fbf-b100-ab36acf444a6"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 165,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1dff430b-efbb-4971-8bf0-7864501a5e15"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 166,
+            "name": "I click \u0027Production/Transaksi/Field_DeskripsiTabungan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Field_DeskripsiTabungan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b84269ef-cb7e-49a1-875d-36d4f7400376"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 167,
+            "name": "I type \u0027Automation TabunganLainnya FE\u0027 on \u0027Production/Transaksi/Field_DeskripsiTabungan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation TabunganLainnya FE",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Transaksi/Field_DeskripsiTabungan",
+                  "offset": 43
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "64bd055e-11f5-498a-9176-d98a99485a8c"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 168,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d180539b-0998-4aaa-b2e2-15381ad9be87"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 169,
+            "name": "I click \u0027Production/Transaksi/Button_TambahTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TambahTransaksi",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a07b12fc-7bbe-42d0-b74e-bcc2deb07a9a"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 170,
+            "name": "I should see \u0027Production/Transaksi/Text_BerhasilMenabung\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_BerhasilMenabung",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "89377922-528b-4674-85fc-4af50926a222"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 171,
+            "name": "I click \u0027Production/Transaksi/Button_NantiSaja\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_NantiSaja",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6385c717-7992-4ea7-bf7d-93736c1697ce"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 172,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0baf89da-eaac-4935-b193-bf95141d851f"
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 173,
+            "name": "I close app",
+            "match": {
+              "location": "Script.I_close_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b69d6085-5b4a-42f7-8bac-83a735dd81bf"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "c585c547-27c0-435d-9649-aa3b8bbd7239",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11087232500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "14ced94f-c3df-4e9c-9d5f-777c59b3c98e"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "c585c547-27c0-435d-9649-aa3b8bbd7239",
+        "line": 176,
+        "name": "As user i want to verify riwayat transaksi and all the field",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-verify-riwayat-transaksi-and-all-the-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131992200,
+              "status": "passed"
+            },
+            "line": 177,
+            "name": "I should see \u0027Production/Transaksi/Text_Pendapatan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_Pendapatan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1a95050d-b3bd-4cb7-a469-a932ee1166a7"
+          },
+          {
+            "result": {
+              "duration": 108161600,
+              "status": "passed"
+            },
+            "line": 178,
+            "name": "I should see \u0027Production/Transaksi/Text_Pengeluaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_Pengeluaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e28edd91-49b1-414e-a0a0-0f49817f85aa"
+          },
+          {
+            "result": {
+              "duration": 106498800,
+              "status": "passed"
+            },
+            "line": 179,
+            "name": "I should see \u0027Production/Transaksi/Text_Tabungan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_Tabungan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5a6c149c-7bcf-44e8-80d3-5c07541dde53"
+          },
+          {
+            "result": {
+              "duration": 91532400,
+              "status": "passed"
+            },
+            "line": 180,
+            "name": "I should see \u0027Production/Transaksi/Text_SisaUangKamu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Text_SisaUangKamu",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "26ab816b-a9e0-4c50-b8e6-cf186bbba16d"
+          },
+          {
+            "result": {
+              "duration": 110382100,
+              "status": "passed"
+            },
+            "line": 181,
+            "name": "I should see \u0027Production/Transaksi/Button_TransaksiBerulang\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TransaksiBerulang",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5883b77b-45db-4703-a146-172c3a1869f7"
+          },
+          {
+            "result": {
+              "duration": 107422700,
+              "status": "passed"
+            },
+            "line": 182,
+            "name": "I should see \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e67c79cb-e6eb-4d49-82c1-6b67191257d4"
+          },
+          {
+            "result": {
+              "duration": 90503600,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "I should see \u0027Production/Transaksi/Button_ToolTipTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_ToolTipTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c7d6453e-1759-4fb5-bdd9-accf637a4856"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "05a88e4e-94a6-4bf6-b52d-77dcac26456d",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11011553500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a3e61ac2-775c-4ec0-bf24-be5058ee3e48"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "05a88e4e-94a6-4bf6-b52d-77dcac26456d",
+        "line": 187,
+        "name": "As user i want to filter transaction 1 minggu",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-filter-transaction-1-minggu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168539800,
+              "status": "passed"
+            },
+            "line": 188,
+            "name": "I should see \u0027Production/Transaksi/Button_Filter\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Filter",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c97c4cf4-77c5-4649-85ac-fb6b01d8e62a"
+          },
+          {
+            "result": {
+              "duration": 4009497400,
+              "status": "passed"
+            },
+            "line": 189,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d9acec12-1309-41e8-ac54-19da07cb7d02"
+          },
+          {
+            "result": {
+              "duration": 4681553000,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "I click and hold \u0027Production/Transaksi/Button_Filter\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Filter",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6529f389-03b9-4b8c-bc67-41d5ff476c1d"
+          },
+          {
+            "result": {
+              "duration": 4646292300,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "I click and hold \u0027Production/Transaksi/Filter_1MingguTerakhir\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Filter_1MingguTerakhir",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1a11db84-f05d-464d-93b4-d31b31982ed1"
+          },
+          {
+            "result": {
+              "duration": 4014443900,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5966c9f9-7165-48b4-839f-165d511069d0"
+          },
+          {
+            "result": {
+              "duration": 103380300,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "I should see \u0027Production/Transaksi/Filter_KAS\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Filter_KAS",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "5154e4a0-4dd0-4404-ae58-857fd6d59535"
+          },
+          {
+            "result": {
+              "duration": 4669767700,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "I click and hold \u0027Production/Transaksi/Filter_KAS\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Filter_KAS",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ad0db255-1ea8-4e59-be17-cf2c0d385b1d"
+          },
+          {
+            "result": {
+              "duration": 4016727200,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "23e6adaf-d443-4d54-87e2-2c4f327fa0d3"
+          },
+          {
+            "result": {
+              "duration": 4662884500,
+              "status": "passed"
+            },
+            "line": 196,
+            "name": "I click and hold \u0027Production/Transaksi/Filter_Edukasi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Filter_Edukasi",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "36b0e535-04d0-4010-99b6-a9090dbbb134"
+          },
+          {
+            "result": {
+              "duration": 1122674900,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "I click \u0027Production/Transaksi/Button_TerapkanFilter\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TerapkanFilter",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "80b41502-fa87-4f94-a98b-16cf5e2d4722"
+          },
+          {
+            "result": {
+              "duration": 4010083400,
+              "status": "passed"
+            },
+            "line": 198,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "99a2d41d-26ab-4f47-916d-701754e1d950"
+          },
+          {
+            "result": {
+              "duration": 500771200,
+              "status": "passed"
+            },
+            "line": 199,
+            "name": "I should see \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "10a2757f-4a22-4fc6-bb3d-d5a23274602d"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "44e2080d-9cf5-41b4-8c02-e31e0abcc32a",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10960574200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "300b77ff-6ac0-456e-8dc1-1f3f731d537c"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "44e2080d-9cf5-41b4-8c02-e31e0abcc32a",
+        "line": 202,
+        "name": "As user i want to filter transaction 2 Bulan",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-filter-transaction-2-bulan",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 135802100,
+              "status": "passed"
+            },
+            "line": 203,
+            "name": "I should see \u0027Production/Transaksi/Button_Filter\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Filter",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1e5ed027-b88e-4808-804a-c49095f8d471"
+          },
+          {
+            "result": {
+              "duration": 4013100200,
+              "status": "passed"
+            },
+            "line": 204,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c17f94cd-0226-49ec-8d22-29dee2651e8d"
+          },
+          {
+            "result": {
+              "duration": 4673257200,
+              "status": "passed"
+            },
+            "line": 205,
+            "name": "I click and hold \u0027Production/Transaksi/Button_Filter\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Filter",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9dca3346-cd81-4909-919c-29324eaaaa29"
+          },
+          {
+            "result": {
+              "duration": 4694447000,
+              "status": "passed"
+            },
+            "line": 206,
+            "name": "I click and hold \u0027Production/Transaksi/Filter_3BulanTerakhir\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Filter_3BulanTerakhir",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f860f12d-f5f4-4e83-a689-872ad65f049d"
+          },
+          {
+            "result": {
+              "duration": 4015483100,
+              "status": "passed"
+            },
+            "line": 207,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4b74c7aa-317e-4866-8dc0-fd946ddbe375"
+          },
+          {
+            "result": {
+              "duration": 116643000,
+              "status": "passed"
+            },
+            "line": 208,
+            "name": "I should see \u0027Production/Transaksi/Filter_KAS\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Filter_KAS",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "80274832-6a4b-4f59-b6b6-679679ef68f2"
+          },
+          {
+            "result": {
+              "duration": 4672179500,
+              "status": "passed"
+            },
+            "line": 209,
+            "name": "I click and hold \u0027Production/Transaksi/Filter_KAS\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Filter_KAS",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0895d850-2f6a-44f0-9c78-531d853f06a8"
+          },
+          {
+            "result": {
+              "duration": 4014682900,
+              "status": "passed"
+            },
+            "line": 210,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d808409c-f995-44bd-acff-141c7cf45241"
+          },
+          {
+            "result": {
+              "duration": 4668566900,
+              "status": "passed"
+            },
+            "line": 211,
+            "name": "I click and hold \u0027Production/Transaksi/Filter_Edukasi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Filter_Edukasi",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d8f5b06e-dd48-4df7-a33e-8c748fc6db34"
+          },
+          {
+            "result": {
+              "duration": 252327000,
+              "status": "passed"
+            },
+            "line": 212,
+            "name": "I click \u0027Production/Transaksi/Button_TerapkanFilter\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TerapkanFilter",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6775bf59-c611-4555-b2b9-3e0b958c3e9c"
+          },
+          {
+            "result": {
+              "duration": 4010765600,
+              "status": "passed"
+            },
+            "line": 213,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "095555ec-033d-4904-96e9-1c56649d9bba"
+          },
+          {
+            "result": {
+              "duration": 4007757700,
+              "status": "passed"
+            },
+            "line": 214,
+            "name": "I swipe to bottom",
+            "match": {
+              "location": "Script.I_swipe_to_bottom()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4963581b-72f9-4720-ae9c-bec5982dce8e"
+          },
+          {
+            "result": {
+              "duration": 123645700,
+              "status": "passed"
+            },
+            "line": 215,
+            "name": "I should see \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "aba482fd-b57b-47e5-9179-69d1b193d0af"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9dd61410-e960-40b1-a929-2012231e7596",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10794129300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "474289bf-f401-4aca-b58e-57c524494b83"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9dd61410-e960-40b1-a929-2012231e7596",
+        "line": 219,
+        "name": "As user i want to searching transaction with valid transaction",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-searching-transaction-with-valid-transaction",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3951462700,
+              "status": "passed"
+            },
+            "line": 220,
+            "name": "I scroll to up",
+            "match": {
+              "location": "Script.I_scroll_to_up()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6cb6ad14-fc64-4424-aa4e-2f378e84dae0"
+          },
+          {
+            "result": {
+              "duration": 491390500,
+              "status": "passed"
+            },
+            "line": 221,
+            "name": "I should see \u0027Production/Transaksi/View_CariTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_CariTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7ef37f5b-ea8f-4087-a09a-8fed7876c65f"
+          },
+          {
+            "result": {
+              "duration": 4003967500,
+              "status": "passed"
+            },
+            "line": 222,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1852f985-9599-4fca-a9dc-47b882415559"
+          },
+          {
+            "result": {
+              "duration": 4713362800,
+              "status": "passed"
+            },
+            "line": 223,
+            "name": "I click and hold \u0027Production/Transaksi/View_CariTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_CariTransaksi",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0646bc02-aca1-4ff5-ae48-4cb38a67f09a"
+          },
+          {
+            "result": {
+              "duration": 4014342900,
+              "status": "passed"
+            },
+            "line": 224,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "176852ab-ca6a-4e04-bff4-03ca0205f038"
+          },
+          {
+            "result": {
+              "duration": 208704100,
+              "status": "passed"
+            },
+            "line": 225,
+            "name": "I type \u0027Automation out FE\u0027 on \u0027Production/Transaksi/View_CariTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation out FE",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Transaksi/View_CariTransaksi",
+                  "offset": 31
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "25ddfad0-1fc3-4287-aefa-59f1d0e6a798"
+          },
+          {
+            "result": {
+              "duration": 4000455800,
+              "status": "passed"
+            },
+            "line": 226,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0383176a-1e8d-481f-a707-7b75369ae8f7"
+          },
+          {
+            "result": {
+              "duration": 466117600,
+              "status": "passed"
+            },
+            "line": 227,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0fdfc43b-7ed7-459f-b002-a4a8a63e26e8"
+          },
+          {
+            "result": {
+              "duration": 503669500,
+              "status": "passed"
+            },
+            "line": 228,
+            "name": "I should see \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "322fa1f4-711e-4e35-96e5-121f0ce2a095"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "06c5f404-4b1e-4291-bc85-69ef6a298179",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10912847600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "88e67a76-6ad8-496d-b7cb-006d7bcbde55"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "06c5f404-4b1e-4291-bc85-69ef6a298179",
+        "line": 231,
+        "name": "As user i want to searching transaction with invalid transaction",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-searching-transaction-with-invalid-transaction",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3983474000,
+              "status": "passed"
+            },
+            "line": 232,
+            "name": "I scroll to up trx",
+            "match": {
+              "location": "Script.I_scroll_to_up_trx()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "46bf42e3-8328-447c-8e2c-8750f9629a7f"
+          },
+          {
+            "result": {
+              "duration": 487804900,
+              "status": "passed"
+            },
+            "line": 233,
+            "name": "I should see \u0027Production/Transaksi/Search_Delete\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Search_Delete",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "df6e1635-2cee-46ab-8aa8-482c4be4036e"
+          },
+          {
+            "result": {
+              "duration": 287103000,
+              "status": "passed"
+            },
+            "line": 234,
+            "name": "I click \u0027Production/Transaksi/Search_Delete\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Search_Delete",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "27dc5071-7c0a-4242-855a-e9bc68ad2d80"
+          },
+          {
+            "result": {
+              "duration": 628545300,
+              "status": "passed"
+            },
+            "line": 235,
+            "name": "I should see \u0027Production/Transaksi/View_CariTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_CariTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1da2d677-dcf1-44bc-8894-4cc90bb3ade0"
+          },
+          {
+            "result": {
+              "duration": 4010858000,
+              "status": "passed"
+            },
+            "line": 236,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9d63551a-f4d1-4388-9627-ddddd5a3fc89"
+          },
+          {
+            "result": {
+              "duration": 4753188100,
+              "status": "passed"
+            },
+            "line": 237,
+            "name": "I click and hold \u0027Production/Transaksi/View_CariTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_CariTransaksi",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9c766a26-178b-4707-925e-b543be85928d"
+          },
+          {
+            "result": {
+              "duration": 4006464600,
+              "status": "passed"
+            },
+            "line": 238,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "15d84779-fae0-4307-9e11-a00d4ca160e1"
+          },
+          {
+            "result": {
+              "duration": 208890700,
+              "status": "passed"
+            },
+            "line": 239,
+            "name": "I type \u0027Tidak Ada\u0027 on \u0027Production/Transaksi/View_CariTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tidak Ada",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Transaksi/View_CariTransaksi",
+                  "offset": 23
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d8b6bbe1-1ce2-46ce-aeb5-53f8f78601d6"
+          },
+          {
+            "result": {
+              "duration": 4003718500,
+              "status": "passed"
+            },
+            "line": 240,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "00e8ea0e-9aa9-4821-b6e8-96b72e6ab5c7"
+          },
+          {
+            "result": {
+              "duration": 511694800,
+              "status": "passed"
+            },
+            "line": 241,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ff2b1512-961b-4c33-a137-f8cf6ef2a8a0"
+          },
+          {
+            "result": {
+              "duration": 5091024700,
+              "status": "passed"
+            },
+            "line": 242,
+            "name": "I should not see \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_should_not_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7f1aaf90-9613-4874-a998-d123e8669b26"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "dc1c922d-9c5a-4ff3-834a-3626007159f3",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10908053300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "87323bc3-64b1-48f2-80a0-f9ff62583eb3"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "dc1c922d-9c5a-4ff3-834a-3626007159f3",
+        "line": 246,
+        "name": "As user i want to see the detail transaction",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-see-the-detail-transaction",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4040360200,
+              "status": "passed"
+            },
+            "line": 247,
+            "name": "I swipe to bottom",
+            "match": {
+              "location": "Script.I_swipe_to_bottom()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "06a40596-7bfc-42b6-88b4-0819cb78d836"
+          },
+          {
+            "result": {
+              "duration": 132844200,
+              "status": "passed"
+            },
+            "line": 248,
+            "name": "I should see \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c1d0a2ff-3f2d-44d0-8075-bfc630172d1a"
+          },
+          {
+            "result": {
+              "duration": 4010759900,
+              "status": "passed"
+            },
+            "line": 249,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "bab6a23a-947a-4ed6-8be2-2aed4fc9aa0f"
+          },
+          {
+            "result": {
+              "duration": 4642534700,
+              "status": "passed"
+            },
+            "line": 250,
+            "name": "I click and hold \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "283f9ab0-c197-4a34-8460-cae4c125a83e"
+          },
+          {
+            "result": {
+              "duration": 4007645700,
+              "status": "passed"
+            },
+            "line": 251,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "19c2d154-1e3f-4046-a227-022f84a32b1e"
+          },
+          {
+            "result": {
+              "duration": 121013500,
+              "status": "passed"
+            },
+            "line": 252,
+            "name": "I should see \u0027Production/Transaksi/View_DetailJenisPengeluaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_DetailJenisPengeluaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "767801aa-e977-40ae-927f-46365c37a664"
+          },
+          {
+            "result": {
+              "duration": 4013343900,
+              "status": "passed"
+            },
+            "line": 253,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f53bcd9b-6121-47de-bfc0-de78e1a31769"
+          },
+          {
+            "result": {
+              "duration": 117372300,
+              "status": "passed"
+            },
+            "line": 254,
+            "name": "I should see \u0027Production/Transaksi/View_DetailKategoriOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_DetailKategoriOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6d2db3b3-1f87-4f00-9bdb-17db1e1ea016"
+          },
+          {
+            "result": {
+              "duration": 109269500,
+              "status": "passed"
+            },
+            "line": 255,
+            "name": "I should see \u0027Production/Transaksi/View_DetailSumberAkunOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_DetailSumberAkunOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "92893319-a6f6-4153-84ee-7eb154a06ea4"
+          },
+          {
+            "result": {
+              "duration": 106584300,
+              "status": "passed"
+            },
+            "line": 256,
+            "name": "I should see \u0027Production/Transaksi/View_DetailTransaksi\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_DetailTransaksi",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "118449d2-5a6d-4733-b6ac-2aa8a7c59a44"
+          },
+          {
+            "result": {
+              "duration": 105939100,
+              "status": "passed"
+            },
+            "line": 257,
+            "name": "I should see \u0027Production/Transaksi/View_DetailValueOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_DetailValueOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d7b05200-7544-4847-bbed-1dd2ab98e221"
+          },
+          {
+            "result": {
+              "duration": 98378300,
+              "status": "passed"
+            },
+            "line": 258,
+            "name": "I press back",
+            "match": {
+              "location": "Script.I_press_back()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9196fb50-6bb0-47f5-af3d-770cf3a8c618"
+          },
+          {
+            "result": {
+              "duration": 585054600,
+              "status": "passed"
+            },
+            "line": 259,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "87fce135-130f-4eb4-91e1-0236fb0af285"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4355eb4c-23d9-4c96-83b0-aa383ce99bbb",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11142742100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "49c638d1-b739-41f0-9e9c-37da170c4250"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "4355eb4c-23d9-4c96-83b0-aa383ce99bbb",
+        "line": 263,
+        "name": "As user i want to see change the category OUT",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-see-change-the-category-out",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122313600,
+              "status": "passed"
+            },
+            "line": 264,
+            "name": "I should see \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "37e824df-f415-4ee6-aebb-3f9d3e7830a8"
+          },
+          {
+            "result": {
+              "duration": 4008576400,
+              "status": "passed"
+            },
+            "line": 265,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "85c154d6-90fd-428d-b05e-fa70e5dc3f84"
+          },
+          {
+            "result": {
+              "duration": 4683161100,
+              "status": "passed"
+            },
+            "line": 266,
+            "name": "I click and hold \u0027Production/Transaksi/Transaksi_AutomationOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Transaksi_AutomationOUT",
+                  "offset": 18
+                }
+              ],
+              "location": "Script.I_click_and_hold(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "e6037e99-3005-4f3b-bc60-017be1e41b23"
+          },
+          {
+            "result": {
+              "duration": 4011263600,
+              "status": "passed"
+            },
+            "line": 267,
+            "name": "I wait for 4 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4f264bdc-0cad-4618-a860-e81e3eabc3e3"
+          },
+          {
+            "result": {
+              "duration": 909623300,
+              "status": "passed"
+            },
+            "line": 268,
+            "name": "I should see \u0027Production/Transaksi/Detail_EditButton\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Detail_EditButton",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "914e1922-d0cf-4207-83b1-92bd43d9986d"
+          },
+          {
+            "result": {
+              "duration": 1206000900,
+              "status": "passed"
+            },
+            "line": 269,
+            "name": "I click \u0027Production/Transaksi/Detail_EditButton\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Detail_EditButton",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "80a6f899-1f06-403e-8916-0660be128729"
+          },
+          {
+            "result": {
+              "duration": 154732600,
+              "status": "passed"
+            },
+            "line": 270,
+            "name": "I should see \u0027Production/Transaksi/View_EditEdukasiBerubah\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_EditEdukasiBerubah",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "84c9a3da-e03a-4284-a10a-023984c7b3f8"
+          },
+          {
+            "result": {
+              "duration": 329304900,
+              "status": "passed"
+            },
+            "line": 271,
+            "name": "I click \u0027Production/Transaksi/View_EditEdukasiBerubah\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_EditEdukasiBerubah",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1bbf1d55-9857-4969-9499-7b65cafc0566"
+          },
+          {
+            "result": {
+              "duration": 839295200,
+              "status": "passed"
+            },
+            "line": 272,
+            "name": "I should see \u0027Production/Transaksi/View_EditBelanja\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_EditBelanja",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "c407efc1-889e-4665-b6ec-f4827bcde8c6"
+          },
+          {
+            "result": {
+              "duration": 278904300,
+              "status": "passed"
+            },
+            "line": 273,
+            "name": "I click \u0027Production/Transaksi/View_EditBelanja\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_EditBelanja",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6082d79c-cdce-4645-ba17-ec948ef9ff1b"
+          },
+          {
+            "result": {
+              "duration": 2872260300,
+              "status": "passed"
+            },
+            "line": 274,
+            "name": "I click \u0027Production/Transaksi/Button_Simpan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_Simpan",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "11574969-a215-4541-b2f5-7de71e2f2c17"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "7b5c4166-a038-4ab4-9e7e-4e312edd5147",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10923722100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "393ae8dd-e5bd-4cf7-b21f-ae21bace2081"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "7b5c4166-a038-4ab4-9e7e-4e312edd5147",
+        "line": 277,
+        "name": "As user i want to see verify transaction berulang",
+        "description": "",
+        "id": "homepage;as-user-i-want-to-see-verify-transaction-berulang",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153529100,
+              "status": "passed"
+            },
+            "line": 278,
+            "name": "I should see \u0027Production/Transaksi/Button_TransaksiBerulang\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TransaksiBerulang",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "25a48c67-979c-4e0e-b75c-517426e47ce6"
+          },
+          {
+            "result": {
+              "duration": 1090480900,
+              "status": "passed"
+            },
+            "line": 279,
+            "name": "I click \u0027Production/Transaksi/Button_TransaksiBerulang\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Button_TransaksiBerulang",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0c6d28f5-d630-4428-8d51-3ca44a0c02d0"
+          },
+          {
+            "result": {
+              "duration": 138851800,
+              "status": "passed"
+            },
+            "line": 280,
+            "name": "I should see \u0027Production/Transaksi/Verify_AutomationBerulangIN\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Verify_AutomationBerulangIN",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f11f4576-3a81-4d7e-83f1-824de8cbc239"
+          },
+          {
+            "result": {
+              "duration": 127308100,
+              "status": "passed"
+            },
+            "line": 281,
+            "name": "I should see \u0027Production/Transaksi/Verify_AutomationBerulangOUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Verify_AutomationBerulangOUT",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "52f782a0-d815-4424-9619-0b1acf2b3a31"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "49c2c5d5-bbe1-4535-aa89-daa6e3e498c8",
+        "line": 4,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11136501900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f0f22d03-e21e-498f-9c67-bab509fc53ae"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "49c2c5d5-bbe1-4535-aa89-daa6e3e498c8",
+        "line": 284,
+        "name": "As user i want check the pengeluaran dan pendapatan value",
+        "description": "",
+        "id": "homepage;as-user-i-want-check-the-pengeluaran-dan-pendapatan-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115793600,
+              "status": "passed"
+            },
+            "line": 285,
+            "name": "I should see \u0027Production/Transaksi/View_Pendapatan_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_Pendapatan_Field",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "32eff1bd-a71f-4d7d-a88a-63c3c78e907b"
+          },
+          {
+            "result": {
+              "duration": 119128400,
+              "status": "passed"
+            },
+            "line": 286,
+            "name": "I should see \u0027Production/Transaksi/View_Pengeluaran_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_Pengeluaran_Field",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "aafe544d-82fa-455c-8140-373ab8b48fb5"
+          },
+          {
+            "result": {
+              "duration": 442591600,
+              "status": "passed"
+            },
+            "line": 287,
+            "name": "I should see \u0027Production/Transaksi/View_2Jt_Field_In\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_2Jt_Field_In",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "eb375ef2-1ca2-41bd-8da5-3029da257d48"
+          },
+          {
+            "result": {
+              "duration": 140012800,
+              "status": "passed"
+            },
+            "line": 288,
+            "name": "I should see \u0027Production/Transaksi/View_2Jt_Field_Out\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_2Jt_Field_Out",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1ff5a8b5-7f91-43ad-9e6f-20df7326f76d"
+          },
+          {
+            "result": {
+              "duration": 132695400,
+              "status": "passed"
+            },
+            "line": 289,
+            "name": "I should see \u0027Production/Transaksi/View_SisaUangKamu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/View_SisaUangKamu",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "0cd33f0a-0afa-4af1-a872-48efa6ac63cc"
+          },
+          {
+            "result": {
+              "duration": 154556300,
+              "status": "passed"
+            },
+            "line": 290,
+            "name": "I should see \u0027Production/Transaksi/Sisa_Uang_Kamu_0\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Transaksi/Sisa_Uang_Kamu_0",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "59ccbde9-c75d-49ce-a702-fefe4b97ff6f"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "\t\t\t\t As user i want to make a transactions",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/automation-fe/Include/features/Transaksi.feature",
+    "tags": []
+  }
+]

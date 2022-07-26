@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-07-26 09:33:59,2022-07-26 09:45:30,11m - 31.150s,FAILED
+,,,,,,,
+Test Cases/Regression,,,,2022-07-26 09:33:59,2022-07-26 09:45:30,11m - 30.966s,FAILED
+"runFeatureFile(""Include/features/Login.feature"")",,,,2022-07-26 09:33:59,2022-07-26 09:35:03,1m - 3.738s,PASSED
+"runFeatureFile(""Include/features/HomePage.feature"")",,,,2022-07-26 09:35:03,2022-07-26 09:35:33,29.478s,PASSED
+"runFeatureFile(""Include/features/LaporanWith0Trx.feature"")",,,,2022-07-26 09:35:33,2022-07-26 09:36:13,39.872s,PASSED
+"runFeatureFile(""Include/features/Transaksi.feature"")",,,,2022-07-26 09:36:13,2022-07-26 09:45:30,9m - 17.605s,FAILED

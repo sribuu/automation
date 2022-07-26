@@ -1,0 +1,565 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "e1b46884-a6ba-487d-a3af-8c869cae86f8",
+        "line": 3,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14121350100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7c277708-af5f-45cd-ae1a-fffcd12bfbba"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "e1b46884-a6ba-487d-a3af-8c869cae86f8",
+        "line": 10,
+        "name": "Login with InValid Credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 244836900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \u0027Production/Login/SelamatDatang_Text\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/SelamatDatang_Text",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "a9919948-a2ec-47c0-8d8b-1994ac521c1e"
+          },
+          {
+            "result": {
+              "duration": 1340950900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click \u0027Production/Login/Lewati_Button\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Lewati_Button",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "35e91aa1-537d-460c-ba99-0a58b729d3d5"
+          },
+          {
+            "result": {
+              "duration": 1504875900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click \u0027Production/Login/Mulai_Button\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Mulai_Button",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "9e89c1c4-0a16-4fa5-bff5-0f444e2deb7c"
+          },
+          {
+            "result": {
+              "duration": 314233500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click \u0027Production/Login/Email_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Email_Field",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "ccc9b623-052a-4dec-a450-77de12a16874"
+          },
+          {
+            "result": {
+              "duration": 775022100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I type \u0027test312@gmail.com\u0027 on \u0027Production/Login/Email_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test312@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Login/Email_Field",
+                  "offset": 31
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "3b2498c6-c20b-4181-99c7-af42df7f2ee6"
+          },
+          {
+            "result": {
+              "duration": 507095700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "84b21b20-59fe-4ea6-b967-8e0ba867b6c6"
+          },
+          {
+            "result": {
+              "duration": 710407600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click \u0027Production/Login/Password_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Password_Field",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1512d834-e1f5-4057-a2fe-4c6483bac51e"
+          },
+          {
+            "result": {
+              "duration": 698363600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I type \u0027123456\u0027 on \u0027Production/Login/Password_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Login/Password_Field",
+                  "offset": 20
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "33fe36bb-b264-4ce7-b1c1-dcc504de6fb7"
+          },
+          {
+            "result": {
+              "duration": 1703609500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6df8a848-4899-4c99-94ef-25fe1ee71cc7"
+          },
+          {
+            "result": {
+              "duration": 1273671100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click \u0027Production/Login/Login_Button\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Login_Button",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d861e980-2024-4b5c-92aa-e47845ef95d9"
+          },
+          {
+            "result": {
+              "duration": 5004011400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "4f7c4862-f338-466b-a0a2-f41f21bdedd4"
+          },
+          {
+            "result": {
+              "duration": 133648000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see \u0027Production/Login/LoginGagal\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/LoginGagal",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d0c5a1ef-bd25-446c-97d2-4dd2cdfea4e7"
+          },
+          {
+            "result": {
+              "duration": 5014753400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "dd323d71-80ed-4290-ba02-aa5836839783"
+          },
+          {
+            "result": {
+              "duration": 1957578400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I kill app",
+            "match": {
+              "location": "Script.I_kill_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "b0be17a5-df1d-4526-a8c9-c23925e71feb"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9610da11-c493-4b34-8080-57dcb2ad4501",
+        "line": 3,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10898157500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "18f80986-72b5-4302-99c8-ddde2b78b42d"
+          }
+        ]
+      },
+      {
+        "BDD_TESTRUN_UUID": "9610da11-c493-4b34-8080-57dcb2ad4501",
+        "line": 28,
+        "name": "Login with Valid Credentials",
+        "description": "",
+        "id": "login;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154021300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see \u0027Production/Login/SelamatDatang_Text\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/SelamatDatang_Text",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7b114f9d-038b-42ff-ad09-004529703e08"
+          },
+          {
+            "result": {
+              "duration": 1336021500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click \u0027Production/Login/Lewati_Button\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Lewati_Button",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "94e9a2a4-f836-47ef-bec5-4128a9d55bb7"
+          },
+          {
+            "result": {
+              "duration": 1533040000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click \u0027Production/Login/Mulai_Button\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Mulai_Button",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "d759ce64-97ef-45d5-b8f2-070bdee11e9e"
+          },
+          {
+            "result": {
+              "duration": 315879200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click \u0027Production/Login/Email_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Email_Field",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "6ed038a8-98ce-4bcb-a061-3e9b6af26f90"
+          },
+          {
+            "result": {
+              "duration": 797468200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I type \u0027test31@gmail.com\u0027 on \u0027Production/Login/Email_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test31@gmail.com",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Login/Email_Field",
+                  "offset": 30
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "7fb1dd0d-80b0-4773-98cf-1a1c21907731"
+          },
+          {
+            "result": {
+              "duration": 474519700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "23e73f3c-0e2e-44d3-8715-5c754d6e845d"
+          },
+          {
+            "result": {
+              "duration": 664505100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click \u0027Production/Login/Password_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Password_Field",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "f0357920-d7df-4881-b3e1-424ce5e61990"
+          },
+          {
+            "result": {
+              "duration": 751562700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I type \u0027123456\u0027 on \u0027Production/Login/Password_Field\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 8
+                },
+                {
+                  "val": "Production/Login/Password_Field",
+                  "offset": 20
+                }
+              ],
+              "location": "Script.I_type_on(String,String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "db7f7ab8-73ba-404e-8dc7-e2e09aadfeb3"
+          },
+          {
+            "result": {
+              "duration": 1735030800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I hide keyboard",
+            "match": {
+              "location": "Script.I_hide_keyboard()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "1ab8ff44-7139-4401-b4eb-8eb29045ccaf"
+          },
+          {
+            "result": {
+              "duration": 1189047200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click \u0027Production/Login/Login_Button\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/Login/Login_Button",
+                  "offset": 9
+                }
+              ],
+              "location": "Script.I_click(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "cbac0e4a-1922-4bd5-b44c-9eea2d72f449"
+          },
+          {
+            "result": {
+              "duration": 5006010400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I wait for 5 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.I_wait_for(String)"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "86214b3f-15f9-48ca-96c0-8442930f9e7c"
+          },
+          {
+            "result": {
+              "duration": 2832257400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I kill app",
+            "match": {
+              "location": "Script.I_kill_app()"
+            },
+            "keyword": "* ",
+            "BDD_STEP_UUID": "637ad823-a9c0-496d-ad54-8d48713f293b"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PoisitiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/automation-fe/Include/features/Login.feature",
+    "tags": []
+  }
+]

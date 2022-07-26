@@ -75,12 +75,14 @@ Feature: Tujuan Keuangan
    * I should see 'Production/Transaksi/Text_BerhasilMenabung'
    * I click 'Production/Transaksi/Button_NantiSaja'
    * I wait for 4 seconds
+   * I press back
 
   @PositiveCase 
      Scenario: As user i want to see anggaran page for the first time
    * I should see 'Production/HomePage/Button_TujuanKeuangan'
    * I wait for 4 seconds
    * I click 'Production/HomePage/Button_TujuanKeuangan'
+     * I press back
    * I should see 'Production/Tujuan/Button_Basic'
    * I click and hold 'Production/Tujuan/Button_Basic'
    * I should see 'Production/Tujuan/Text_TambahTujuanKeuangan'
@@ -101,9 +103,11 @@ Feature: Tujuan Keuangan
    * I click 'Production/Tujuan/View_Harian'
    * I click 'Production/Tujuan/Button_Simpan'
    * I tap app
+   * I press back
 
        @PositiveCase 
      Scenario: As user i want to see anggaran page for the first time
+   * I press back
    * I should see 'Production/Transaksi/Button_PlusTransaksi'
    * I wait for 4 seconds
    * I click 'Production/Transaksi/Button_PlusTransaksi'
@@ -158,5 +162,5 @@ Feature: Tujuan Keuangan
    * I click 'Production/Tujuan/Button_Simpan'
    * I click 'Production/Tujuan/Button_TarikTabungan'
    * I should see 'Production/Tujuan/View_Penarikan'
-     * I should see 'Production/Tujuan/View_Penarikan2'
+   * I should see 'Production/Tujuan/View_Penarikan2'
    

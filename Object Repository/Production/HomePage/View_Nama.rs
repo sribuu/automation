@@ -3,7 +3,7 @@
    <description></description>
    <name>View_Nama</name>
    <tag></tag>
-   <elementGuidId>7968e535-ff21-4372-b7e8-129776710302</elementGuidId>
+   <elementGuidId>5b71e95c-610c-40e3-aabe-1ba692941e79</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -168,7 +168,7 @@ Lihat Profil ></value>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]</value>
    </webElementProperties>
-   <locator>Siang, Check
-Lihat Profil ></locator>
+   <locator>Pagi, Check
+Hari yang cerah!</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

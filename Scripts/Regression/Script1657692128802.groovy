@@ -17,13 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//CucumberKW.runFeatureFile('Include/features/Login.feature')
-//CucumberKW.runFeatureFile('Include/features/HomePage.feature')
+CucumberKW.runFeatureFile('Include/features/Login.feature')
+CucumberKW.runFeatureFile('Include/features/HomePage.feature')
+CucumberKW.runFeatureFile('Include/features/LaporanWith0Trx.feature')
 CucumberKW.runFeatureFile('Include/features/Transaksi.feature')
+CucumberKW.runFeatureFile('Include/features/HomePageWallet.feature')
 CucumberKW.runFeatureFile('Include/features/Tujuan.feature')
 CucumberKW.runFeatureFile('Include/features/LaporanKeuangan.feature')
 CucumberKW.runFeatureFile('Include/features/DeleteTransaksi.feature')
-CucumberKW.runFeatureFile('Include/features/LaporanWith0Trx.feature')
+CucumberKW.runFeatureFile('Include/features/TransferUang.feature')
+
 
 
 
