@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,,,,2022-10-25 09:25:19,2022-10-25 09:27:10,1m - 51.049s,FAILED
+,,,,,,,
+Test Cases/Regression,,,,2022-10-25 09:25:19,2022-10-25 09:27:10,1m - 50.872s,FAILED
+"runFeatureFile(""Include/features/Login.feature"")",,,,2022-10-25 09:25:20,2022-10-25 09:26:46,1m - 25.857s,PASSED
+"runFeatureFile(""Include/features/HomePage.feature"")",,,,2022-10-25 09:26:46,2022-10-25 09:27:10,24.735s,FAILED

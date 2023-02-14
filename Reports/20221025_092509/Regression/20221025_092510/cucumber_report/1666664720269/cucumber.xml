@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="85.250099">
+<testcase classname="Login" name="Login with InValid Credentials" time="41.390478">
+<system-out><![CDATA[* I open default app........................................................passed
+* I should see 'Production/Login/SelamatDatang_Text'........................passed
+* I click 'Production/Login/Lewati_Button'..................................passed
+* I click 'Production/Login/Mulai_Button'...................................passed
+* I click 'Production/Login/Email_Field'....................................passed
+* I type 'test312@gmail.com' on 'Production/Login/Email_Field'..............passed
+* I hide keyboard...........................................................passed
+* I click 'Production/Login/Password_Field'.................................passed
+* I type '123456' on 'Production/Login/Password_Field'......................passed
+* I hide keyboard...........................................................passed
+* I click 'Production/Login/Login_Button'...................................passed
+* I wait for 5 seconds......................................................passed
+* I should see 'Production/Login/LoginGagal'................................passed
+* I wait for 5 seconds......................................................passed
+* I kill app................................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login with Valid Credentials" time="43.859621">
+<system-out><![CDATA[* I open default app........................................................passed
+* I should see 'Production/Login/SelamatDatang_Text'........................passed
+* I click 'Production/Login/Lewati_Button'..................................passed
+* I click 'Production/Login/Mulai_Button'...................................passed
+* I click 'Production/Login/Email_Field'....................................passed
+* I type 'test31@gmail.com' on 'Production/Login/Email_Field'...............passed
+* I hide keyboard...........................................................passed
+* I click 'Production/Login/Password_Field'.................................passed
+* I type '123456' on 'Production/Login/Password_Field'......................passed
+* I hide keyboard...........................................................passed
+* I click 'Production/Login/Login_Button'...................................passed
+* I wait for 5 seconds......................................................passed
+* I kill app................................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

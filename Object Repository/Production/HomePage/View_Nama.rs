@@ -3,7 +3,7 @@
    <description></description>
    <name>View_Nama</name>
    <tag></tag>
-   <elementGuidId>5b71e95c-610c-40e3-aabe-1ba692941e79</elementGuidId>
+   <elementGuidId>e6b81931-a6fb-4063-926a-9dd66cf0e49b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,6 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.View</value>
+      <webElementGuid>55ac847c-2388-43f9-9dc0-41b99a24b9e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -19,6 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
+      <webElementGuid>9cd79a60-d1e1-4825-8b2e-c7cb4c1180a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,14 +28,16 @@
       <name>package</name>
       <type>Main</type>
       <value>id.chatalia.app</value>
+      <webElementGuid>6ea4bf14-f6ff-4c92-8b88-c572641f3e66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>Malam, Check
-Lihat Profil ></value>
+      <value>Pagi, Check
+Hari yang cerah!</value>
+      <webElementGuid>de9e7764-691b-4e6b-a811-d6fc822ae24d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,6 +45,7 @@ Lihat Profil ></value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>f090fedf-8261-4e2c-b11d-e29eb282e2cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,6 +53,7 @@ Lihat Profil ></value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>c028b4b4-99e5-411b-879c-c3f8dd92a5e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,6 +61,7 @@ Lihat Profil ></value>
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>0b935c07-752f-4053-bad3-25ecd047409c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,6 +69,7 @@ Lihat Profil ></value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>cf0e001d-f38f-4c88-a7c3-5a0f54ad6cd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,6 +77,7 @@ Lihat Profil ></value>
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>cd79ac47-abc0-4b61-9029-38502c853c34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,6 +85,7 @@ Lihat Profil ></value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>a6c9070a-3350-4358-a496-bff541903323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -83,6 +93,7 @@ Lihat Profil ></value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>6fccdf73-4464-4aaa-8c4f-984a65b19a77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -90,6 +101,7 @@ Lihat Profil ></value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>ea02bfef-fc8b-4037-8e5c-1e0de1347cfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -97,6 +109,7 @@ Lihat Profil ></value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>7350a09e-ec5e-4fbb-89dd-fd7d8695194f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -104,6 +117,7 @@ Lihat Profil ></value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>d346799f-4c37-4a2c-b795-365ecd57fcbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -111,6 +125,7 @@ Lihat Profil ></value>
       <name>x</name>
       <type>Main</type>
       <value>63</value>
+      <webElementGuid>ca150cb7-f608-4a8a-ba59-3e2e11d78e8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -118,6 +133,7 @@ Lihat Profil ></value>
       <name>y</name>
       <type>Main</type>
       <value>177</value>
+      <webElementGuid>816c439a-48d7-406d-9d96-02f89cc6d1e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -125,6 +141,7 @@ Lihat Profil ></value>
       <name>width</name>
       <type>Main</type>
       <value>712</value>
+      <webElementGuid>d48b8881-f0a6-46ff-adca-6dc201941b87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -132,6 +149,7 @@ Lihat Profil ></value>
       <name>height</name>
       <type>Main</type>
       <value>92</value>
+      <webElementGuid>5745b7de-2d1d-4140-a05d-0598a790b997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -139,6 +157,7 @@ Lihat Profil ></value>
       <name>bounds</name>
       <type>Main</type>
       <value>[63,177][775,269]</value>
+      <webElementGuid>9cf90266-2a1c-49a5-95c1-2daf6c6bd7e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -146,6 +165,7 @@ Lihat Profil ></value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>bf97cd2f-c6c1-438e-a498-b21207fc0fc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -153,6 +173,7 @@ Lihat Profil ></value>
       <name>resource-id</name>
       <type>Main</type>
       <value></value>
+      <webElementGuid>f5a1cfa8-7f5a-4df0-8d4d-75701d98b023</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -160,6 +181,7 @@ Lihat Profil ></value>
       <name>text</name>
       <type>Main</type>
       <value></value>
+      <webElementGuid>ea9f588f-a666-4531-91c2-2e76fb82ae64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -167,8 +189,10 @@ Lihat Profil ></value>
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]</value>
+      <webElementGuid>3c4abb6a-36ee-459a-a47f-be76870882d0</webElementGuid>
    </webElementProperties>
-   <locator>Pagi, Check
-Hari yang cerah!</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1][count(. | //*[@class = 'android.view.View' and @index = '0' and @package = 'id.chatalia.app' and @content-desc = 'Pagi, Check
+Hari yang cerah!' and @checkable = 'false' and @checked = 'false' and @clickable = 'true' and @enabled = 'true' and @focusable = 'true' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '63' and @y = '177' and @width = '712' and @height = '92' and @bounds = '[63,177][775,269]' and @displayed = 'true' and @resource-id = '' and (@text = '' or . = '')]) = count(//*[@class = 'android.view.View' and @index = '0' and @package = 'id.chatalia.app' and @content-desc = 'Pagi, Check
+Hari yang cerah!' and @checkable = 'false' and @checked = 'false' and @clickable = 'true' and @enabled = 'true' and @focusable = 'true' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '63' and @y = '177' and @width = '712' and @height = '92' and @bounds = '[63,177][775,269]' and @displayed = 'true' and @resource-id = '' and (@text = '' or . = '')])]</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

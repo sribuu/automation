@@ -25,7 +25,7 @@ Feature: Delete Transaction
 	 * I should see 'Production/Transaksi/View_PenghapusanBerhasil'
 	 * I tap app
 	 * I wait for 4 seconds
-	  * I should not see 'Production/Transaksi/View_HapusTransaksiIN'
+	 * I should not see 'Production/Transaksi/View_HapusTransaksiIN'
 	 
 	  @PositiveCase 
      Scenario: As user i want to make delete OUT Transaction

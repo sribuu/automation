@@ -1,0 +1,337 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open Sribuu App",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10693614900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open default app",
+            "match": {
+              "location": "Script.I_open_default_app()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Verify all the features on HomePage",
+        "description": "",
+        "id": "homepage;verify-all-the-features-on-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2707296600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \u0027Production/HomePage/Button_Beranda\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_Beranda",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 405123700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see \u0027Production/HomePage/View_ButtonChat\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_ButtonChat",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 106577300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \u0027Production/HomePage/Button_ClipChart\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_ClipChart",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 94196700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see \u0027Production/HomePage/View_Emas\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Emas",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Element \u0027Object Repository/Production/HomePage/View_Nama\u0027 not found\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$0.call(Unknown Source)\r\n\tat Script.I_should_see(Script.groovy:109)\r\n\tat ✽.I should see \u0027Production/HomePage/View_Nama\u0027(C:/Users/MSI/git/automation-fe/Include/features/HomePage.feature:13)\r\n",
+              "duration": 10464239100,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I should see \u0027Production/HomePage/View_Nama\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Nama",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I should see \u0027Production/HomePage/View_Referral\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Referral",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see \u0027Production/HomePage/View_TotalSaldo\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TotalSaldo",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I should see \u0027Production/HomePage/Button_KelolaAnggaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Button_KelolaAnggaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I should see \u0027Production/HomePage/Text_SisaAngaaran\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/Text_SisaAngaaran",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I swipe to bottom trx",
+            "match": {
+              "location": "Script.I_swipe_to_bottom_trx()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I should see \u0027Production/HomePage/View_Basic\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_Basic",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I should see \u0027Production/HomePage/View_HitungTujuan\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_HitungTujuan",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I should see \u0027Production/HomePage/View_TantanganMenabung\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TantanganMenabung",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I should see \u0027Production/HomePage/View_TK_Emas\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_TK_Emas",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I should see \u0027Production/HomePage/View_UndangTemanMu\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Production/HomePage/View_UndangTemanMu",
+                  "offset": 14
+                }
+              ],
+              "location": "Script.I_should_see(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I scroll to up",
+            "match": {
+              "location": "Script.I_scroll_to_up()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I scroll to up",
+            "match": {
+              "location": "Script.I_scroll_to_up()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PoisitiveCase"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "C:/Users/MSI/git/automation-fe/Include/features/HomePage.feature",
+    "tags": []
+  }
+]

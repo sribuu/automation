@@ -161,7 +161,7 @@ public class Script {
 		Mobile.swipe(691, 180, 1017, 800)
 		Mobile.delay(3)
 	}
-	
+
 	@When("I scroll to up trx")
 	def I_scroll_to_up_trx() {
 		Mobile.swipe(1066, 1080, 1306, 1989)

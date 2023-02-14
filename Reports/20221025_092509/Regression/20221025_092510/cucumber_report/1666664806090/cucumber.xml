@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.485385">
+<testcase classname="HomePage" name="Verify all the features on HomePage" time="24.485385">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Production/HomePage/View_Nama' not found&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)&#13;&#10;&#9;at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$0.call(Unknown Source)&#13;&#10;&#9;at Script.I_should_see(Script.groovy:109)&#13;&#10;&#9;at ✽.I should see 'Production/HomePage/View_Nama'(C:/Users/MSI/git/automation-fe/Include/features/HomePage.feature:13)&#13;&#10;"><![CDATA[* I open default app........................................................passed
+* I should see 'Production/HomePage/Button_Beranda'.........................passed
+* I should see 'Production/HomePage/View_ButtonChat'........................passed
+* I should see 'Production/HomePage/Button_ClipChart'.......................passed
+* I should see 'Production/HomePage/View_Emas'..............................passed
+* I should see 'Production/HomePage/View_Nama'..............................failed
+* I should see 'Production/HomePage/View_Referral'..........................skipped
+* I should see 'Production/HomePage/View_TotalSaldo'........................skipped
+* I swipe to bottom trx.....................................................skipped
+* I should see 'Production/HomePage/Button_KelolaAnggaran'..................skipped
+* I should see 'Production/HomePage/Text_SisaAngaaran'......................skipped
+* I swipe to bottom trx.....................................................skipped
+* I should see 'Production/HomePage/View_Basic'.............................skipped
+* I should see 'Production/HomePage/View_HitungTujuan'......................skipped
+* I should see 'Production/HomePage/View_TantanganMenabung'.................skipped
+* I should see 'Production/HomePage/View_TK_Emas'...........................skipped
+* I should see 'Production/HomePage/View_UndangTemanMu'.....................skipped
+* I scroll to up............................................................skipped
+* I scroll to up............................................................skipped
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/Production/HomePage/View_Nama' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:82)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:85)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(MobileBuiltInKeywords.groovy:2031)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementVisible$0.call(Unknown Source)
+	at Script.I_should_see(Script.groovy:109)
+	at ✽.I should see 'Production/HomePage/View_Nama'(C:/Users/MSI/git/automation-fe/Include/features/HomePage.feature:13)
+]]></failure>
+</testcase>
+</testsuite>
